@@ -1,0 +1,27 @@
+<h1>Listing players for <%=h @current_user.login%></h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Owner</th>
+    <th class='internal'></th>
+    <th class='internal'></th>
+    <th class='internal'></th>
+  </tr>
+
+<% @players.each do |player| %>
+  <tr>
+    <td><%=h player.name %></td>
+    <td><%=h player.description %></td>
+    <td><%=h player.owner %></td>
+    <td class='internal'><%= link_to 'Show', player %></td>
+    <td class='internal'><%= link_to 'Edit', edit_player_path(player) %></td>
+    <td class='internal'><%= link_to 'Destroy', player, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Player', new_player_path %>

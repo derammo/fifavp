@@ -1,0 +1,153 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+one:
+  heightweight: one
+  skill: one
+  value: 1
+two:
+  heightweight: two
+  skill: two
+  value: 2
+374:
+  heightweight: 52
+  skill: Acceleration
+  value: 85
+375:
+  heightweight: 52
+  skill: Agility
+  value: 84
+376:
+  heightweight: 52
+  skill: Jumping
+  value: 54
+377:
+  heightweight: 52
+  skill: SprintSpeed
+  value: 85
+378:
+  heightweight: 52
+  skill: Stamina
+  value: 70
+379:
+  heightweight: 52
+  skill: Strength
+  value: 46
+380:
+  heightweight: 55
+  skill: Acceleration
+  value: 83
+381:
+  heightweight: 55
+  skill: Agility
+  value: 82
+382:
+  heightweight: 55
+  skill: Jumping
+  value: 57
+383:
+  heightweight: 55
+  skill: SprintSpeed
+  value: 83
+384:
+  heightweight: 55
+  skill: Stamina
+  value: 72
+385:
+  heightweight: 55
+  skill: Strength
+  value: 52
+386:
+  heightweight: 510
+  skill: Acceleration
+  value: 77
+387:
+  heightweight: 510
+  skill: Agility
+  value: 74
+388:
+  heightweight: 510
+  skill: Jumping
+  value: 67
+389:
+  heightweight: 510
+  skill: SprintSpeed
+  value: 79
+390:
+  heightweight: 510
+  skill: Stamina
+  value: 70
+391:
+  heightweight: 510
+  skill: Strength
+  value: 66
+392:
+  heightweight: 60
+  skill: Acceleration
+  value: 71
+393:
+  heightweight: 60
+  skill: Agility
+  value: 70
+394:
+  heightweight: 60
+  skill: Jumping
+  value: 71
+395:
+  heightweight: 60
+  skill: SprintSpeed
+  value: 76
+396:
+  heightweight: 60
+  skill: Stamina
+  value: 69
+397:
+  heightweight: 60
+  skill: Strength
+  value: 73
+398:
+  heightweight: 62
+  skill: Acceleration
+  value: 63
+399:
+  heightweight: 62
+  skill: Agility
+  value: 66
+400:
+  heightweight: 62
+  skill: Jumping
+  value: 75
+401:
+  heightweight: 62
+  skill: SprintSpeed
+  value: 70
+402:
+  heightweight: 62
+  skill: Stamina
+  value: 67
+403:
+  heightweight: 62
+  skill: Strength
+  value: 78
+404:
+  heightweight: 62H
+  skill: Acceleration
+  value: 61
+405:
+  heightweight: 62H
+  skill: Agility
+  value: 64
+406:
+  heightweight: 62H
+  skill: Jumping
+  value: 73
+407:
+  heightweight: 62H
+  skill: SprintSpeed
+  value: 70
+408:
+  heightweight: 62H
+  skill: Stamina
+  value: 65
+409:
+  heightweight: 62H
+  skill: Strength
+  value: 79

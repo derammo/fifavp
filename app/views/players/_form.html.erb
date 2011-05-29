@@ -1,0 +1,84 @@
+<%= form_for(@player) do |f| %>
+<% if @player.errors.any? %>
+<div id="error_explanation">
+    <h2><%= pluralize(@player.errors.count, "error") %>prohibited this player from being saved:</h2>
+    <ul>
+        <% @player.errors.full_messages.each do |msg| %>
+        <li>
+            <%= msg %>
+        </li>
+        <% end %>
+    </ul>
+</div>
+<% end %>
+<div class="field">
+    <%= f.label :name %>
+    <br/>
+    <%= f.text_field :name %>
+</div>
+<div class="field">
+    <%= f.label :description %>
+    <br/>
+    <%= f.text_field :description %>
+</div>
+<p>
+    <b>Accomplishments:</b>
+    <table class='internal'>
+        <tr class='internal'>
+            <%prevsection = '' %>
+            <%numsection = 1 %>
+            <%for accomplishmentstate in @accomplishmentsedit do %>
+            <%if accomplishmentstate.accomplishment.section != prevsection then %>
+            <%prevsection = accomplishmentstate.accomplishment.section %>
+            <td class='internal'>
+                <a class='tab' href='javascript:activateTab("page<%=numsection%>")'><%=h accomplishmentstate.accomplishment.section %></a>
+                <% numsection += 1 %>
+            </td>
+            <%end %>
+            <%end %>
+        </tr>
+    </table>
+	<p/>
+    <div id="tabCtrl">
+    <% prevsection = '' %>
+    <% numsection = 1 %>
+    <%for accomplishmentstate in @accomplishmentsedit do %>
+	    <%if accomplishmentstate.accomplishment.section != prevsection then %>
+	    <%if numsection > 1 then %>
+	    </table>
+		</div>
+		<%end %>
+		<div id="page<%= numsection %>" style="display: <%= (numsection == 1) ? "block" : "none"%>;">
+    	<table class='internal'>
+        <% numsection += 1 %>
+        <% prevsection = accomplishmentstate.accomplishment.section %>
+    	<%end %>
+	        <tr class='internal'>
+	            <td class='internal'>
+	                <%=check_box_tag "accomplishment_" +
+	                accomplishmentstate.accomplishment_id.to_s,
+	                "true",
+	                accomplishmentstate.achieved %>
+	            </td>
+	            <td class='internal'>
+	                <%=h accomplishmentstate.accomplishment.section %>
+	            </td>
+	            <td class='internal numeric'>
+	                <%=h accomplishmentstate.accomplishment.linenumber %>:
+	            </td>
+	            <td class='internal'>
+	                <%=h accomplishmentstate.accomplishment.description %>
+	            </td>
+	        </tr>
+	<%end%>
+    <%if numsection > 1 %>
+	    </table>
+		</div>
+	<%end %>
+	</div>
+	<p/>
+    <div class="actions">
+        <%= f.submit %>
+    </div>
+<%end %>
+    

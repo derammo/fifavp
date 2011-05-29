@@ -1,0 +1,29 @@
+<h1>Listing playeraccomplishments</h1>
+
+<table>
+  <tr>
+    <th>Player</th>
+    <th>Accomplishment</th>
+    <th>Achieved</th>
+    <th>When</th>
+    <th class='internal'></th>
+    <th class='internal'></th>
+    <th class='internal'></th>
+  </tr>
+
+<% @playeraccomplishments.each do |playeraccomplishment| %>
+  <tr>
+    <td><%=h playeraccomplishment.player_id %></td>
+    <td><%=h playeraccomplishment.accomplishment_id %></td>
+    <td><%=h playeraccomplishment.achieved %></td>
+    <td><%=h playeraccomplishment.when %></td>
+    <td class='internal'><%=link_to 'Show', playeraccomplishment %></td>
+    <td class='internal'><%=link_to 'Edit', edit_playeraccomplishment_path(playeraccomplishment) %></td>
+    <td class='internal'><%=link_to 'Destroy', playeraccomplishment, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Playeraccomplishment', new_playeraccomplishment_path %>

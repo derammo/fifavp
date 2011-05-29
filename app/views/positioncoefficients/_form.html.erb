@@ -1,0 +1,29 @@
+<%= form_for(@positioncoefficient) do |f| %>
+  <% if @positioncoefficient.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@positioncoefficient.errors.count, "error") %> prohibited this positioncoefficient from being saved:</h2>
+
+      <ul>
+      <% @positioncoefficient.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :position_id %><br />
+    <%= f.text_field :position_id %>
+  </div>
+  <div class="field">
+    <%= f.label :skill_id %><br />
+    <%= f.text_field :skill_id %>
+  </div>
+  <div class="field">
+    <%= f.label :coefficient %><br />
+    <%= f.text_field :coefficient %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

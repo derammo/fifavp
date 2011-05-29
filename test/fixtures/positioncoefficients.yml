@@ -1,0 +1,573 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+one:
+  position: one
+  skill: one
+  coefficient: 1
+two:
+  position: two
+  skill: two
+  coefficient: 2
+1:
+  position: RW
+  skill: Acceleration
+  coefficient: 11
+3:
+  position: RW
+  skill: Agility
+  coefficient: 5
+4:
+  position: RW
+  skill: BallControl
+  coefficient: 10
+5:
+  position: RW
+  skill: Crossing
+  coefficient: 12
+6:
+  position: RW
+  skill: Dribbling
+  coefficient: 15
+7:
+  position: RW
+  skill: Finishing
+  coefficient: 4
+10:
+  position: RW
+  skill: LongPassing
+  coefficient: 5
+11:
+  position: RW
+  skill: LongShots
+  coefficient: 3
+14:
+  position: RW
+  skill: Reactions
+  coefficient: 5
+15:
+  position: RW
+  skill: ShortPassing
+  coefficient: 10
+16:
+  position: RW
+  skill: ShotPower
+  coefficient: 3
+18:
+  position: RW
+  skill: SprintSpeed
+  coefficient: 9
+19:
+  position: RW
+  skill: Stamina
+  coefficient: 4
+23:
+  position: RW
+  skill: Vision
+  coefficient: 4
+28:
+  position: RAM
+  skill: BallControl
+  coefficient: 12
+30:
+  position: RAM
+  skill: Dribbling
+  coefficient: 12
+31:
+  position: RAM
+  skill: Finishing
+  coefficient: 7
+32:
+  position: RAM
+  skill: Heading
+  coefficient: 4
+34:
+  position: RAM
+  skill: LongPassing
+  coefficient: 7
+35:
+  position: RAM
+  skill: LongShots
+  coefficient: 9
+37:
+  position: RAM
+  skill: Positioning
+  coefficient: 9
+38:
+  position: RAM
+  skill: Reactions
+  coefficient: 5
+39:
+  position: RAM
+  skill: ShortPassing
+  coefficient: 15
+40:
+  position: RAM
+  skill: ShotPower
+  coefficient: 5
+42:
+  position: RAM
+  skill: SprintSpeed
+  coefficient: 5
+47:
+  position: RAM
+  skill: Vision
+  coefficient: 10
+49:
+  position: RM
+  skill: Acceleration
+  coefficient: 7
+51:
+  position: RM
+  skill: Agility
+  coefficient: 3
+52:
+  position: RM
+  skill: BallControl
+  coefficient: 12
+53:
+  position: RM
+  skill: Crossing
+  coefficient: 13
+54:
+  position: RM
+  skill: Dribbling
+  coefficient: 13
+58:
+  position: RM
+  skill: LongPassing
+  coefficient: 7
+59:
+  position: RM
+  skill: LongShots
+  coefficient: 3
+61:
+  position: RM
+  skill: Positioning
+  coefficient: 6
+62:
+  position: RM
+  skill: Reactions
+  coefficient: 5
+63:
+  position: RM
+  skill: ShortPassing
+  coefficient: 12
+66:
+  position: RM
+  skill: SprintSpeed
+  coefficient: 8
+67:
+  position: RM
+  skill: Stamina
+  coefficient: 5
+71:
+  position: RM
+  skill: Vision
+  coefficient: 6
+74:
+  position: RCB
+  skill: Aggression
+  coefficient: 10
+76:
+  position: RCB
+  skill: BallControl
+  coefficient: 4
+80:
+  position: RCB
+  skill: Heading
+  coefficient: 10
+81:
+  position: RCB
+  skill: Jumping
+  coefficient: 4
+84:
+  position: RCB
+  skill: Marking
+  coefficient: 20
+86:
+  position: RCB
+  skill: Reactions
+  coefficient: 5
+87:
+  position: RCB
+  skill: ShortPassing
+  coefficient: 4
+89:
+  position: RCB
+  skill: SlidingTackle
+  coefficient: 10
+90:
+  position: RCB
+  skill: SprintSpeed
+  coefficient: 5
+92:
+  position: RCB
+  skill: StandingTackle
+  coefficient: 15
+93:
+  position: RCB
+  skill: Strength
+  coefficient: 10
+94:
+  position: RCB
+  skill: TacticalAwareness
+  coefficient: 3
+97:
+  position: RS
+  skill: Acceleration
+  coefficient: 10
+100:
+  position: RS
+  skill: BallControl
+  coefficient: 7
+102:
+  position: RS
+  skill: Dribbling
+  coefficient: 8
+103:
+  position: RS
+  skill: Finishing
+  coefficient: 20
+104:
+  position: RS
+  skill: Heading
+  coefficient: 10
+107:
+  position: RS
+  skill: LongShots
+  coefficient: 7
+110:
+  position: RS
+  skill: Reactions
+  coefficient: 8
+111:
+  position: RS
+  skill: ShortPassing
+  coefficient: 5
+112:
+  position: RS
+  skill: ShotPower
+  coefficient: 10
+114:
+  position: RS
+  skill: SprintSpeed
+  coefficient: 5
+117:
+  position: RS
+  skill: Strength
+  coefficient: 5
+120:
+  position: RS
+  skill: Volleys
+  coefficient: 5
+121:
+  position: SW
+  skill: Acceleration
+  coefficient: 4
+124:
+  position: SW
+  skill: BallControl
+  coefficient: 7
+128:
+  position: SW
+  skill: Heading
+  coefficient: 7
+129:
+  position: SW
+  skill: Jumping
+  coefficient: 3
+132:
+  position: SW
+  skill: Marking
+  coefficient: 15
+134:
+  position: SW
+  skill: Reactions
+  coefficient: 9
+135:
+  position: SW
+  skill: ShortPassing
+  coefficient: 6
+137:
+  position: SW
+  skill: SlidingTackle
+  coefficient: 7
+140:
+  position: SW
+  skill: StandingTackle
+  coefficient: 15
+141:
+  position: SW
+  skill: Strength
+  coefficient: 5
+142:
+  position: SW
+  skill: TacticalAwareness
+  coefficient: 22
+146:
+  position: RB
+  skill: Aggression
+  coefficient: 5
+148:
+  position: RB
+  skill: BallControl
+  coefficient: 7
+149:
+  position: RB
+  skill: Crossing
+  coefficient: 5
+152:
+  position: RB
+  skill: Heading
+  coefficient: 8
+156:
+  position: RB
+  skill: Marking
+  coefficient: 15
+158:
+  position: RB
+  skill: Reactions
+  coefficient: 7
+159:
+  position: RB
+  skill: ShortPassing
+  coefficient: 6
+161:
+  position: RB
+  skill: SlidingTackle
+  coefficient: 10
+162:
+  position: RB
+  skill: SprintSpeed
+  coefficient: 5
+163:
+  position: RB
+  skill: Stamina
+  coefficient: 5
+164:
+  position: RB
+  skill: StandingTackle
+  coefficient: 14
+165:
+  position: RB
+  skill: Strength
+  coefficient: 5
+166:
+  position: RB
+  skill: TacticalAwareness
+  coefficient: 8
+169:
+  position: RWB
+  skill: Acceleration
+  coefficient: 5
+172:
+  position: RWB
+  skill: BallControl
+  coefficient: 10
+173:
+  position: RWB
+  skill: Crossing
+  coefficient: 8
+174:
+  position: RWB
+  skill: Dribbling
+  coefficient: 5
+176:
+  position: RWB
+  skill: Heading
+  coefficient: 5
+180:
+  position: RWB
+  skill: Marking
+  coefficient: 12
+182:
+  position: RWB
+  skill: Reactions
+  coefficient: 5
+183:
+  position: RWB
+  skill: ShortPassing
+  coefficient: 8
+185:
+  position: RWB
+  skill: SlidingTackle
+  coefficient: 8
+186:
+  position: RWB
+  skill: SprintSpeed
+  coefficient: 5
+187:
+  position: RWB
+  skill: Stamina
+  coefficient: 8
+188:
+  position: RWB
+  skill: StandingTackle
+  coefficient: 12
+190:
+  position: RWB
+  skill: TacticalAwareness
+  coefficient: 9
+194:
+  position: RDM
+  skill: Aggression
+  coefficient: 5
+196:
+  position: RDM
+  skill: BallControl
+  coefficient: 10
+200:
+  position: RDM
+  skill: Heading
+  coefficient: 5
+202:
+  position: RDM
+  skill: LongPassing
+  coefficient: 8
+204:
+  position: RDM
+  skill: Marking
+  coefficient: 10
+206:
+  position: RDM
+  skill: Reactions
+  coefficient: 5
+207:
+  position: RDM
+  skill: ShortPassing
+  coefficient: 10
+209:
+  position: RDM
+  skill: SlidingTackle
+  coefficient: 5
+210:
+  position: RDM
+  skill: SprintSpeed
+  coefficient: 5
+211:
+  position: RDM
+  skill: Stamina
+  coefficient: 5
+212:
+  position: RDM
+  skill: StandingTackle
+  coefficient: 10
+213:
+  position: RDM
+  skill: Strength
+  coefficient: 7
+214:
+  position: RDM
+  skill: TacticalAwareness
+  coefficient: 10
+215:
+  position: RDM
+  skill: Vision
+  coefficient: 5
+220:
+  position: RCM
+  skill: BallControl
+  coefficient: 10
+222:
+  position: RCM
+  skill: Dribbling
+  coefficient: 10
+224:
+  position: RCM
+  skill: Heading
+  coefficient: 5
+226:
+  position: RCM
+  skill: LongPassing
+  coefficient: 12
+227:
+  position: RCM
+  skill: LongShots
+  coefficient: 5
+229:
+  position: RCM
+  skill: Positioning
+  coefficient: 6
+230:
+  position: RCM
+  skill: Reactions
+  coefficient: 5
+231:
+  position: RCM
+  skill: ShortPassing
+  coefficient: 15
+234:
+  position: RCM
+  skill: SprintSpeed
+  coefficient: 5
+235:
+  position: RCM
+  skill: Stamina
+  coefficient: 5
+236:
+  position: RCM
+  skill: StandingTackle
+  coefficient: 5
+237:
+  position: RCM
+  skill: Strength
+  coefficient: 4
+238:
+  position: RCM
+  skill: TacticalAwareness
+  coefficient: 3
+239:
+  position: RCM
+  skill: Vision
+  coefficient: 10
+265:
+  position: RF
+  skill: Acceleration
+  coefficient: 8
+268:
+  position: RF
+  skill: BallControl
+  coefficient: 10
+269:
+  position: RF
+  skill: Crossing
+  coefficient: 8
+270:
+  position: RF
+  skill: Dribbling
+  coefficient: 12
+271:
+  position: RF
+  skill: Finishing
+  coefficient: 12
+272:
+  position: RF
+  skill: Heading
+  coefficient: 5
+275:
+  position: RF
+  skill: LongShots
+  coefficient: 9
+278:
+  position: RF
+  skill: Reactions
+  coefficient: 8
+279:
+  position: RF
+  skill: ShortPassing
+  coefficient: 5
+280:
+  position: RF
+  skill: ShotPower
+  coefficient: 8
+282:
+  position: RF
+  skill: SprintSpeed
+  coefficient: 8
+285:
+  position: RF
+  skill: Strength
+  coefficient: 3
+288:
+  position: RF
+  skill: Volleys
+  coefficient: 4

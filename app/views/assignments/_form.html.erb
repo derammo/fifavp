@@ -1,0 +1,35 @@
+<%= form_for(@assignment) do |f| %>
+  <% if @assignment.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@assignment.errors.count, "error") %> prohibited this assignment from being saved:</h2>
+
+      <ul>
+      <% @assignment.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :role_id %><br />
+    <%= f.select :role_id, 
+	Role.find(:all, :order=>"name").collect {|s| [s.name, s.id]} %>
+  </div>
+  <div class="field">
+    <%= f.label :position_id %><br />
+    <%= f.select :position_id, 
+	Position.find(:all, :order=>"name").collect {|s| [s.name, s.id]} %>
+  </div>
+  <div class="field">
+    <%= f.label :suitability %><br />
+    <%= f.text_field :suitability %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_field :description %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

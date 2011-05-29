@@ -1,0 +1,11 @@
+<p>
+	<%= link_to "Home", root_url %> |
+	<%= link_to "Roles", roles_url %> |
+	<%= link_to "Players", players_url %>
+	<%if current_user && current_user.admin?%>
+		| <%= link_to "Skills", skills_url %> |
+		<%= link_to "Positions", positions_url %> |
+		<%= link_to "Assignments", assignments_url %> 
+	<%end%>
+	<% if current_user %> | <%= link_to "Logout", logout_path %> <% end %> 
+</p>

@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Section:</b>
+  <%=h @accomplishment.section %>
+</p>
+
+<p>
+  <b>Linenumber:</b>
+  <%=h @accomplishment.linenumber %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @accomplishment.description %>
+</p>
+
+<p>
+  <b>Skill:</b>
+  <%=h @accomplishment.skill_id %>
+</p>
+
+<p>
+  <b>Skillamount:</b>
+  <%=h @accomplishment.skillamount %>
+</p>
+
+<p>
+  <b>Otherreward:</b>
+  <%=h @accomplishment.otherreward %>
+</p>
+
+
+<%= link_to 'Edit', edit_accomplishment_path(@accomplishment) %> |
+<%= link_to 'Back', accomplishments_path %>

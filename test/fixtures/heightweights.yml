@@ -1,0 +1,25 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+one:
+  name: test case 1
+  weight: 1
+two:
+  name: test case 2
+  weight: 2
+52:
+  name: "5'2\""
+  weight: 154
+55:
+  name: "5'5\""
+  weight: 154
+510:
+  name: "5'10\""
+  weight: 154
+60:
+  name: "6'0\""
+  weight: 154
+62:
+  name: "6'2\""
+  weight: 154
+62H:
+  name: "6'2\"H"
+  weight: 198

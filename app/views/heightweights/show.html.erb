@@ -1,0 +1,33 @@
+<p id="notice">
+    <%= notice %>
+</p>
+<p>
+    <b>Name:</b>
+    <%=h @heightweight.name %>
+</p>
+<p>
+    <b>Description:</b>
+    <%=h @heightweight.description %>
+</p>
+<p>
+    <b>Weight:</b>
+    <%=h @heightweight.weight %>
+</p>
+<p>
+    <b>Skill Base Values:</b>
+</p>
+<table>
+    <%for base in @sortedvalues %>
+    <tr>
+        <td>
+            <%=h base.skill.name %>
+        </td>
+        <td>
+            <%=h base.value %>
+        </td>
+    </tr>
+    <%end %>
+</table>
+<p/><%if current_user && current_user.admin? %>
+<%= link_to 'Edit', edit_heightweight_path(@heightweight) %> |<%end %>
+<%= link_to 'Back', heightweights_path %>

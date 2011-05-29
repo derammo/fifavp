@@ -1,0 +1,33 @@
+<%= form_for(@playeraccomplishment) do |f| %>
+  <% if @playeraccomplishment.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@playeraccomplishment.errors.count, "error") %> prohibited this playeraccomplishment from being saved:</h2>
+
+      <ul>
+      <% @playeraccomplishment.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :player_id %><br />
+    <%= f.text_field :player_id %>
+  </div>
+  <div class="field">
+    <%= f.label :accomplishment_id %><br />
+    <%= f.text_field :accomplishment_id %>
+  </div>
+  <div class="field">
+    <%= f.label :achieved %><br />
+    <%= f.check_box :achieved %>
+  </div>
+  <div class="field">
+    <%= f.label :when %><br />
+    <%= f.datetime_select :when %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

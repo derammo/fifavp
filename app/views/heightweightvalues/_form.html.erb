@@ -1,0 +1,29 @@
+<%= form_for(@heightweightvalue) do |f| %>
+  <% if @heightweightvalue.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@heightweightvalue.errors.count, "error") %> prohibited this heightweightvalue from being saved:</h2>
+
+      <ul>
+      <% @heightweightvalue.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :heightweight_id %><br />
+    <%= f.text_field :heightweight_id %>
+  </div>
+  <div class="field">
+    <%= f.label :skill_id %><br />
+    <%= f.text_field :skill_id %>
+  </div>
+  <div class="field">
+    <%= f.label :value %><br />
+    <%= f.text_field :value %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,349 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+one:
+  role: one
+  skill: one
+  value: 1
+two:
+  role: two
+  skill: two
+  value: 2
+289:
+  role: RMW
+  skill: Aggression
+  value: 45
+290:
+  role: RMW
+  skill: BallControl
+  value: 76
+291:
+  role: RMW
+  skill: Crossing
+  value: 75
+292:
+  role: RMW
+  skill: Dribbling
+  value: 75
+293:
+  role: RMW
+  skill: Finishing
+  value: 60
+294:
+  role: RMW
+  skill: Heading
+  value: 47
+295:
+  role: RMW
+  skill: LongPassing
+  value: 66
+296:
+  role: RMW
+  skill: LongShots
+  value: 62
+297:
+  role: RMW
+  skill: Marking
+  value: 34
+298:
+  role: RMW
+  skill: Positioning
+  value: 57
+299:
+  role: RMW
+  skill: ShortPassing
+  value: 61
+300:
+  role: RMW
+  skill: ShotPower
+  value: 63
+301:
+  role: RMW
+  skill: SlidingTackle
+  value: 35
+302:
+  role: RMW
+  skill: StandingTackle
+  value: 40
+303:
+  role: RMW
+  skill: TacticalAwareness
+  value: 45
+304:
+  role: RMW
+  skill: Vision
+  value: 67
+305:
+  role: RMW
+  skill: Volleys
+  value: missing
+306:
+  role: RMB
+  skill: Aggression
+  value: 55
+307:
+  role: RMB
+  skill: BallControl
+  value: 70
+308:
+  role: RMB
+  skill: Crossing
+  value: 70
+309:
+  role: RMB
+  skill: Dribbling
+  value: 67
+310:
+  role: RMB
+  skill: Finishing
+  value: 55
+311:
+  role: RMB
+  skill: Heading
+  value: 57
+312:
+  role: RMB
+  skill: LongPassing
+  value: 71
+313:
+  role: RMB
+  skill: LongShots
+  value: 67
+314:
+  role: RMB
+  skill: Marking
+  value: 44
+315:
+  role: RMB
+  skill: Positioning
+  value: 62
+316:
+  role: RMB
+  skill: ShortPassing
+  value: 66
+317:
+  role: RMB
+  skill: ShotPower
+  value: 68
+318:
+  role: RMB
+  skill: SlidingTackle
+  value: 45
+319:
+  role: RMB
+  skill: StandingTackle
+  value: 45
+320:
+  role: RMB
+  skill: TacticalAwareness
+  value: 55
+321:
+  role: RMB
+  skill: Vision
+  value: 60
+322:
+  role: RMB
+  skill: Volleys
+  value: missing
+323:
+  role: RFC
+  skill: Aggression
+  value: 50
+324:
+  role: RFC
+  skill: BallControl
+  value: 72
+325:
+  role: RFC
+  skill: Crossing
+  value: 72
+326:
+  role: RFC
+  skill: Dribbling
+  value: 72
+327:
+  role: RFC
+  skill: Finishing
+  value: 65
+328:
+  role: RFC
+  skill: Heading
+  value: 55
+329:
+  role: RFC
+  skill: LongPassing
+  value: 66
+330:
+  role: RFC
+  skill: LongShots
+  value: 70
+331:
+  role: RFC
+  skill: Marking
+  value: 14
+332:
+  role: RFC
+  skill: Positioning
+  value: 55
+333:
+  role: RFC
+  skill: ShortPassing
+  value: 71
+334:
+  role: RFC
+  skill: ShotPower
+  value: 69
+335:
+  role: RFC
+  skill: SlidingTackle
+  value: 20
+336:
+  role: RFC
+  skill: StandingTackle
+  value: 25
+337:
+  role: RFC
+  skill: TacticalAwareness
+  value: 25
+338:
+  role: RFC
+  skill: Vision
+  value: 76
+339:
+  role: RFC
+  skill: Volleys
+  value: 66
+340:
+  role: CFF
+  skill: Aggression
+  value: 60
+341:
+  role: CFF
+  skill: BallControl
+  value: 65
+342:
+  role: CFF
+  skill: Crossing
+  value: 65
+343:
+  role: CFF
+  skill: Dribbling
+  value: 67
+344:
+  role: CFF
+  skill: Finishing
+  value: 76
+345:
+  role: CFF
+  skill: Heading
+  value: 65
+346:
+  role: CFF
+  skill: LongPassing
+  value: 56
+347:
+  role: CFF
+  skill: LongShots
+  value: 67
+348:
+  role: CFF
+  skill: Marking
+  value: 14
+349:
+  role: CFF
+  skill: Positioning
+  value: 70
+350:
+  role: CFF
+  skill: ShortPassing
+  value: 64
+351:
+  role: CFF
+  skill: ShotPower
+  value: 71
+352:
+  role: CFF
+  skill: SlidingTackle
+  value: 15
+353:
+  role: CFF
+  skill: StandingTackle
+  value: 20
+354:
+  role: CFF
+  skill: TacticalAwareness
+  value: 20
+355:
+  role: CFF
+  skill: Vision
+  value: 65
+356:
+  role: CFF
+  skill: Volleys
+  value: 73
+357:
+  role: CDS
+  skill: Aggression
+  value: 75
+358:
+  role: CDS
+  skill: BallControl
+  value: 55
+359:
+  role: CDS
+  skill: Crossing
+  value: 50
+360:
+  role: CDS
+  skill: Dribbling
+  value: 40
+361:
+  role: CDS
+  skill: Finishing
+  value: 30
+362:
+  role: CDS
+  skill: Heading
+  value: 76
+363:
+  role: CDS
+  skill: LongPassing
+  value: 61
+364:
+  role: CDS
+  skill: LongShots
+  value: 40
+365:
+  role: CDS
+  skill: Marking
+  value: 75
+366:
+  role: CDS
+  skill: Positioning
+  value: 75
+367:
+  role: CDS
+  skill: ShortPassing
+  value: 54
+368:
+  role: CDS
+  skill: ShotPower
+  value: 51
+369:
+  role: CDS
+  skill: SlidingTackle
+  value: 74
+370:
+  role: CDS
+  skill: StandingTackle
+  value: 76
+371:
+  role: CDS
+  skill: TacticalAwareness
+  value: 75
+372:
+  role: CDS
+  skill: Vision
+  value: 30
+373:
+  role: CDS
+  skill: Volleys
+  value: 50

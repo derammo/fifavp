@@ -1,0 +1,40 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+one:
+    position: one
+    role: one
+    description: test case
+    suitability: 0
+two:
+    position: two
+    role: two
+    description: test case
+    suitability: 0
+1:
+    position: RW
+    role: RFC
+    description: better match than midfielder when near goal
+    suitability: 100
+
+2:
+    position: RCB
+    role: CDS
+    description: perfect match
+    suitability: 100
+    
+3:
+    position: RS
+    role: CFF
+    description: perfect match
+    suitability: 100
+    
+4:
+    position: RF
+    role: RFC
+    description: perfect match
+    suitability: 100
+    
+5:
+    position: RW
+    role: RMW
+    description: good match for crossing
+    suitability: 80

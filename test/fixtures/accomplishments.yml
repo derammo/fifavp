@@ -1,0 +1,2808 @@
+one:
+  section: One
+  linenumber: 1
+  description: 'test case'
+two:
+  section: Two
+  linenumber: 2
+  description: 'test case 2'
+2:
+  section: Ball Skills 
+  linenumber: 1
+  description: 'Dribble around a player - dribble past any opposition player to get yourself closer to goal'
+  skill: Dribbling
+  skillamount: 1
+  otherreward: ''
+3:
+  section: Ball Skills 
+  linenumber: 2
+  description: '3 consecutive short passes - play 3 consecutive short passes without conceding possession'
+  skill: BallControl
+  skillamount: 1
+  otherreward: ''
+4:
+  section: Ball Skills 
+  linenumber: 3
+  description: '2 accurate crosses - play 2 accurate crosses that find a team mate in the box'
+  skill: Curve
+  skillamount: 1
+  otherreward: ''
+5:
+  section: Ball Skills 
+  linenumber: 4
+  description: 'Accurate through ball - find a team mate with a through ball of any type'
+  skill: BallControl
+  skillamount: 1
+  otherreward: ''
+6:
+  section: Ball Skills 
+  linenumber: 5
+  description: 'Fake the opposition - perform the fake shot whilst inside the penalty box'
+  skill: Dribbling
+  skillamount: 1
+  otherreward: ''
+7:
+  section: Ball Skills 
+  linenumber: 6
+  description: 'Backheel the ball - find a team mate with a successful backheel pass'
+  skill: BallControl
+  skillamount: 1
+  otherreward: ''
+8:
+  section: Ball Skills 
+  linenumber: 7
+  description: 'Beat a player with skill - dribble past any opposition player using any of the skill moves'
+  skill: Dribbling
+  skillamount: 2
+  otherreward: ''
+9:
+  section: Ball Skills 
+  linenumber: 8
+  description: 'Set up a goal from a corner - find a team mate & create a goal from a corner kick'
+  skill: Curve
+  skillamount: 1
+  otherreward: ''
+10:
+  section: Ball Skills 
+  linenumber: 9
+  description: 'Dribble past 3 players - dribble past opposition players 3 times in a single match'
+  skill: Dribbling
+  skillamount: 2
+  otherreward: ''
+11:
+  section: Ball Skills 
+  linenumber: 10
+  description: '6 consecutive short passes - play 6 consecutive short passes without conceding possession'
+  skill: BallControl
+  skillamount: 2
+  otherreward: ''
+12:
+  section: Ball Skills 
+  linenumber: 11
+  description: '75% short passes in 2 matches - finish 2 matches with 75% short pass completion '
+  skill: BallControl
+  skillamount: 1
+  otherreward: ''
+13:
+  section: Ball Skills 
+  linenumber: 12
+  description: '5 ground through ball assists - create 5 goals from ground through balls in your career'
+  skill: Curve
+  skillamount: 2
+  otherreward: ''
+14:
+  section: Ball Skills 
+  linenumber: 13
+  description: 'Dribble past 20 players - dribble past 20 opposition players through the course of your career'
+  skill: Dribbling
+  skillamount: 2
+  otherreward: ''
+15:
+  section: Ball Skills 
+  linenumber: 14
+  description: 'Score 5 curled free kicks - score 5 goals with curled free kicks in your career'
+  skill: Curve
+  skillamount: 2
+  otherreward: ''
+16:
+  section: Ball Skills 
+  linenumber: 15
+  description: '10 fake shots in the box - perform the fake shot whilst inside the box 10 times in your career'
+  skill: Dribbling
+  skillamount: 2
+  otherreward: ''
+17:
+  section: Ball Skills 
+  linenumber: 16
+  description: '5 chipped through ball assists - create 5 goals from chipped through balls in your career'
+  skill: BallControl
+  skillamount: 2
+  otherreward: ''
+18:
+  section: Ball Skills 
+  linenumber: 17
+  description: '6 assists from crosses - assist your team mates 6 times in your career with crosses'
+  skill: Curve
+  skillamount: 3
+  otherreward: ''
+19:
+  section: Ball Skills 
+  linenumber: 18
+  description: 'Beat 15 players with skill moves - dribble past 15 players using a skill move in your career'
+  skill: Dribbling
+  skillamount: 3
+  otherreward: ''
+20:
+  section: Ball Skills 
+  linenumber: 19
+  description: '3 successful backheels - perform 3 backheel passes that find a team mate in your career'
+  skill: BallControl
+  skillamount: 3
+  otherreward: ''
+21:
+  section: Ball Skills 
+  linenumber: 20
+  description: '10 curled free kicks - score 10 curled free kicks during the course of your career'
+  skill: Curve
+  skillamount: 4
+  otherreward: ''
+22:
+  section: Ball Skills 
+  linenumber: 21
+  description: 'Dribble past 6 players - dribble past 6 opposition players in a single match'
+  skill: Dribbling
+  skillamount: 1
+  otherreward: ''
+23:
+  section: Ball Skills 
+  linenumber: 22
+  description: 'Score a weak foot volley - Score a goal with a volley using your weaker foot'
+  skill: BallControl
+  skillamount: 1
+  otherreward: ''
+24:
+  section: Ball Skills 
+  linenumber: 23
+  description: 'Beat 3 players with skill - dribble past 3 opposition players in a match using skill moves'
+  skill: Dribbling
+  skillamount: 1
+  otherreward: ''
+25:
+  section: Ball Skills 
+  linenumber: 24
+  description: '12 consecutive short passes - complete 12 consecutive short passes in a match'
+  skill: BallControl
+  skillamount: 2
+  otherreward: ''
+26:
+  section: Ball Skills 
+  linenumber: 25
+  description: '2 goals with far post crosses - assist your team mate with 2 high back post crosses in a match'
+  skill: Curve
+  skillamount: 2
+  otherreward: ''
+27:
+  section: Ball Skills 
+  linenumber: 26
+  description: 'Get past 8 players - dribble past 8 opposition players in a match'
+  skill: Dribbling
+  skillamount: 2
+  otherreward: ''
+28:
+  section: Ball Skills 
+  linenumber: 27
+  description: '2 backheels in a match - find your team mates with 2 backheel passes in a match'
+  skill: BallControl
+  skillamount: 2
+  otherreward: ''
+29:
+  section: Ball Skills 
+  linenumber: 28
+  description: 'Create 2 goals from corners - create 2 goals from corner kicks in a single match'
+  skill: Curve
+  skillamount: 3
+  otherreward: ''
+30:
+  section: Ball Skills 
+  linenumber: 29
+  description: 'Beat 6 players with skill - dribble past 6 players in a match using skill moves'
+  skill: Dribbling
+  skillamount: 3
+  otherreward: ''
+31:
+  section: Ball Skills 
+  linenumber: 30
+  description: '75% short passes in 10 games - finish 10 matches with 75% short pass completion '
+  skill: BallControl
+  skillamount: 3
+  otherreward: ''
+32:
+  section: Defence 
+  linenumber: 1
+  description: 'Win a standing tackle - win the ball with a standing tackle in any match'
+  skill: StandingTackle
+  skillamount: 1
+  otherreward: ''
+33:
+  section: Defence 
+  linenumber: 2
+  description: 'Complete a sliding tackle - win the ball with a sliding tackle in any match'
+  skill: SlidingTackle
+  skillamount: 1
+  otherreward: ''
+34:
+  section: Defence 
+  linenumber: 3
+  description: 'Block a shot on goal - Block an opposition’s attempted shot on goal'
+  skill: Marking
+  skillamount: 1
+  otherreward: ''
+35:
+  section: Defence 
+  linenumber: 4
+  description: '4 standing tackles - win the ball with 4 standing tackles in a match'
+  skill: StandingTackle
+  skillamount: 1
+  otherreward: ''
+36:
+  section: Defence 
+  linenumber: 5
+  description: '2 sliding tackles - win the ball with 2 sliding tackles in a match'
+  skill: SlidingTackle
+  skillamount: 1
+  otherreward: ''
+37:
+  section: Defence 
+  linenumber: 6
+  description: 'Keep a clean sheet - finish a match without letting the opposition get on the score sheet'
+  skill: Marking
+  skillamount: 1
+  otherreward: ''
+38:
+  section: Defence 
+  linenumber: 7
+  description: '60% standing tackles - complete 60% of your standing tackles in a match '
+  skill: StandingTackle
+  skillamount: 1
+  otherreward: ''
+39:
+  section: Defence 
+  linenumber: 8
+  description: '50% sliding tackles - complete 50% of your sliding tackles in a match '
+  skill: SlidingTackle
+  skillamount: 1
+  otherreward: ''
+40:
+  section: Defence 
+  linenumber: 9
+  description: 'Catch them offside 3 times - catch the opposition’s players offside 3 times in a match'
+  skill: Marking
+  skillamount: 1
+  otherreward: ''
+41:
+  section: Defence 
+  linenumber: 10
+  description: '8 tackles won - win a total of 8 tackles of any type in a single match'
+  skill: StandingTackle
+  skillamount: 1
+  otherreward: ''
+42:
+  section: Defence 
+  linenumber: 11
+  description: '4 standing tackles back to back - complete 4 standing tackles in 2 consecutive matches'
+  skill: StandingTackle
+  skillamount: 1
+  otherreward: ''
+43:
+  section: Defence 
+  linenumber: 12
+  description: '2 slide tackles 2 games in a row - complete 2 sliding tackles in 2 consecutive matches'
+  skill: SlidingTackle
+  skillamount: 1
+  otherreward: ''
+44:
+  section: Defence 
+  linenumber: 13
+  description: '4 headers won - win 4 headers when challenging for the ball in the air'
+  skill: Marking
+  skillamount: 1
+  otherreward: ''
+45:
+  section: Defence 
+  linenumber: 14
+  description: 'Consecutive 60% standing tackle - complete 60% standing tackles in consecutive matches '
+  skill: StandingTackle
+  skillamount: 1
+  otherreward: ''
+46:
+  section: Defence 
+  linenumber: 15
+  description: '50% slide tackle 2 games in a row - complete 50% sliding tackles in consecutive matches '
+  skill: SlidingTackle
+  skillamount: 1
+  otherreward: ''
+47:
+  section: Defence 
+  linenumber: 16
+  description: '3 revenge tackles - tackle an opponent that has previously fouled you on 3 occasions in your career'
+  skill: Marking
+  skillamount: 2
+  otherreward: ''
+48:
+  section: Defence 
+  linenumber: 17
+  description: 'Man of the match - be the best player on the pitch & win man of the match award'
+  skill: StandingTackle
+  skillamount: 2
+  otherreward: ''
+49:
+  section: Defence 
+  linenumber: 18
+  description: '9 out of 10 - finish a match with a final rating of 9 out of 10 or higher'
+  skill: SlidingTackle
+  skillamount: 2
+  otherreward: ''
+50:
+  section: Defence 
+  linenumber: 19
+  description: 'Block 2 shots on goal - block 2 of the opposition’s shots on goal in a match'
+  skill: Marking
+  skillamount: 2
+  otherreward: ''
+51:
+  section: Defence 
+  linenumber: 20
+  description: 'Win 12 tackles - win a minimum of 12 tackles in a single match'
+  skill: StandingTackle
+  skillamount: 2
+  otherreward: ''
+52:
+  section: Defence 
+  linenumber: 21
+  description: '10 sliding tackles won - win a total of 10 sliding tackles in your career'
+  skill: SlidingTackle
+  skillamount: 1
+  otherreward: ''
+53:
+  section: Defence 
+  linenumber: 22
+  description: '5 shots blocked - block 5 attempted shots on goal throughout your career'
+  skill: Marking
+  skillamount: 1
+  otherreward: ''
+54:
+  section: Defence 
+  linenumber: 23
+  description: '25 standing tackles - win a total of 25 standing tackles in your career'
+  skill: StandingTackle
+  skillamount: 1
+  otherreward: ''
+55:
+  section: Defence 
+  linenumber: 24
+  description: '50 total tackles - win a total of 50 tackles of any type in your career'
+  skill: SlidingTackle
+  skillamount: 1
+  otherreward: ''
+56:
+  section: Defence 
+  linenumber: 25
+  description: '5 clean sheets - keep the opposition team from scoring in 5 matches'
+  skill: Marking
+  skillamount: 1
+  otherreward: ''
+57:
+  section: Defence 
+  linenumber: 26
+  description: '60% standing tackles in 5 games - complete 5 matches with 60% standing tackles '
+  skill: StandingTackle
+  skillamount: 1
+  otherreward: ''
+58:
+  section: Defence 
+  linenumber: 27
+  description: '50% slide tackles in 5 games - complete 5 matches with 50% sliding tackles '
+  skill: SlidingTackle
+  skillamount: 1
+  otherreward: ''
+59:
+  section: Defence 
+  linenumber: 28
+  description: '5 man of the match awards - win the man of the match award 5 times in your career'
+  skill: Marking
+  skillamount: 1
+  otherreward: ''
+60:
+  section: Defence 
+  linenumber: 29
+  description: '9 out of 10 in 5 matches - get a match rating of at least 9/10 five times in your career'
+  skill: StandingTackle
+  skillamount: 1
+  otherreward: ''
+61:
+  section: Defence 
+  linenumber: 30
+  description: '25 sliding tackles won - successfully complete 25 sliding tackles in your career'
+  skill: SlidingTackle
+  skillamount: 1
+  otherreward: ''
+62:
+  section: Defence 
+  linenumber: 31
+  description: '10 clean sheets - get credited for 10 clean sheets in your career'
+  skill: SlidingTackle
+  skillamount: 2
+  otherreward: ''
+63:
+  section: Defence 
+  linenumber: 32
+  description: '15 blocks - block a total of 15 opposition shots on goal in your career'
+  skill: Marking
+  skillamount: 2
+  otherreward: ''
+64:
+  section: Defence 
+  linenumber: 33
+  description: '100 standing tackles - successfully complete 100 standing tackles in your career'
+  skill: StandingTackle
+  skillamount: 2
+  otherreward: ''
+65:
+  section: Defence 
+  linenumber: 34
+  description: '15 man of the match awards - win the man of the match award 15 times in your career'
+  skill: SlidingTackle
+  skillamount: 2
+  otherreward: ''
+66:
+  section: Defence 
+  linenumber: 35
+  description: '25 clean sheets - get credited for 25 clean sheets in your career'
+  skill: Marking
+  skillamount: 2
+  otherreward: ''
+67:
+  section: Defence 
+  linenumber: 36
+  description: '60% standing tackles in 25 games - complete 25 matches with 60% standing tackles '
+  skill: StandingTackle
+  skillamount: 2
+  otherreward: ''
+68:
+  section: Defence 
+  linenumber: 37
+  description: '50% sliding tackles in 25 games - complete 25 matches with 50% sliding tackles '
+  skill: SlidingTackle
+  skillamount: 2
+  otherreward: ''
+69:
+  section: Defence 
+  linenumber: 38
+  description: 'Block 25 shots on goal - block a total of 25 opposition shots on goal in your career'
+  skill: Marking
+  skillamount: 2
+  otherreward: ''
+70:
+  section: Defence 
+  linenumber: 39
+  description: '150 standing tackles - successfully complete 150 standing tackles in your career'
+  skill: StandingTackle
+  skillamount: 2
+  otherreward: ''
+71:
+  section: Defence 
+  linenumber: 40
+  description: '50 slide tackles completed - successfully complete 50 sliding tackles in your career'
+  skill: SlidingTackle
+  skillamount: 2
+  otherreward: ''
+72:
+  section: Defence 
+  linenumber: 41
+  description: 'Make a goal line clearance - clear the ball from the goal line to save an opposition goal'
+  skill: Marking
+  skillamount: 1
+  otherreward: ''
+73:
+  section: Defence 
+  linenumber: 42
+  description: 'Consecutive clean sheets - Keep the opposition from scoring in 2 consecutive matches'
+  skill: StandingTackle
+  skillamount: 1
+  otherreward: ''
+74:
+  section: Defence 
+  linenumber: 43
+  description: '9/10 two games running - get a match rating of 9 or more in two consecutive matches'
+  skill: SlidingTackle
+  skillamount: 1
+  otherreward: ''
+75:
+  section: Defence 
+  linenumber: 44
+  description: 'Block 3 shots on goal in a match - block 3 attempted shots on goal in a single match'
+  skill: Marking
+  skillamount: 2
+  otherreward: ''
+76:
+  section: Defence 
+  linenumber: 45
+  description: '50% slide tackles back to back - complete 50% of sliding tackles in consecutive matches '
+  skill: SlidingTackle
+  skillamount: 2
+  otherreward: ''
+77:
+  section: Defence 
+  linenumber: 46
+  description: '60% standing tackles twice - complete 60% of standing tackles in consecutive matches '
+  skill: StandingTackle
+  skillamount: 2
+  otherreward: ''
+78:
+  section: Defence 
+  linenumber: 47
+  description: 'Consecutive man of the match - win the man of the match award in 2 consecutive matches'
+  skill: Marking
+  skillamount: 2
+  otherreward: ''
+79:
+  section: Defence 
+  linenumber: 48
+  description: '15 standing tackles - successfully complete 15 standing tackles in a single match'
+  skill: StandingTackle
+  skillamount: 2
+  otherreward: ''
+80:
+  section: Defence 
+  linenumber: 49
+  description: '5 sliding tackles - successfully complete 5 sliding tackles in a single match'
+  skill: SlidingTackle
+  skillamount: 2
+  otherreward: ''
+81:
+  section: Defence 
+  linenumber: 50
+  description: 'Block 2 shots 2 games in a row - block 2 attempted shots on goal in consecutive matches'
+  skill: Marking
+  skillamount: 2
+  otherreward: ''
+82:
+  section: Goalkeeper 
+  linenumber: 1
+  description: 'Dive & save - make a diving save as the goalkeeper in a match'
+  skill: GKDiving
+  skillamount: 1
+  otherreward: ''
+83:
+  section: Goalkeeper 
+  linenumber: 2
+  description: 'Deal with a cross - come for & catch or clear a cross in a match'
+  skill: GKHandling
+  skillamount: 1
+  otherreward: ''
+84:
+  section: Goalkeeper 
+  linenumber: 3
+  description: 'Kick to the team - find your team mates with 3 kicks in a match'
+  skill: GKKicking
+  skillamount: 1
+  otherreward: ''
+85:
+  section: Goalkeeper 
+  linenumber: 4
+  description: 'Punch one out - make a punched save as the goalkeeper in a match'
+  skill: GKPositioning
+  skillamount: 1
+  otherreward: ''
+86:
+  section: Goalkeeper 
+  linenumber: 5
+  description: 'Claim a corner - come for & catch or clear a corner in a match'
+  skill: GKReflexes
+  skillamount: 1
+  otherreward: ''
+87:
+  section: Goalkeeper 
+  linenumber: 6
+  description: '3 diving saves - make 3 diving saves as the goalkeeper in a match'
+  skill: GKDiving
+  skillamount: 1
+  otherreward: ''
+88:
+  section: Goalkeeper 
+  linenumber: 7
+  description: 'Double save - make a double save in a match as the goalkeeper'
+  skill: GKHandling
+  skillamount: 1
+  otherreward: ''
+89:
+  section: Goalkeeper 
+  linenumber: 8
+  description: 'Match winner - finish a match as the goalkeeper on the winning side'
+  skill: GKKicking
+  skillamount: 1
+  otherreward: ''
+90:
+  section: Goalkeeper 
+  linenumber: 9
+  description: 'Keep out a spot kick - make a penalty save as the goalkeeper in a match'
+  skill: GKPositioning
+  skillamount: 1
+  otherreward: ''
+91:
+  section: Goalkeeper 
+  linenumber: 10
+  description: 'Save a 1-on-1 - make a 1-on-1 save in a match as the goalkeeper'
+  skill: GKReflexes
+  skillamount: 1
+  otherreward: ''
+92:
+  section: Goalkeeper 
+  linenumber: 11
+  description: 'Win man of the match - win the man of the match award playing as the goalkeeper'
+  skill: GKDiving
+  skillamount: 2
+  otherreward: ''
+93:
+  section: Goalkeeper 
+  linenumber: 12
+  description: 'Keep 2 clean sheets - finish 2 matches as the goalkeeper with no goals conceded'
+  skill: GKHandling
+  skillamount: 2
+  otherreward: ''
+94:
+  section: Goalkeeper 
+  linenumber: 13
+  description: 'Controlled Kicking - finish a match as the goalkeeper with 75% kicking accuracy'
+  skill: GKKicking
+  skillamount: 2
+  otherreward: ''
+95:
+  section: Goalkeeper 
+  linenumber: 14
+  description: '9 out of 10 - finish a match as the goalkeeper with a match rating of 9 or higher'
+  skill: GKPositioning
+  skillamount: 2
+  otherreward: ''
+96:
+  section: Goalkeeper 
+  linenumber: 15
+  description: '5 games played - play & complete 5 matches as the goalkeeper'
+  skill: GKReflexes
+  skillamount: 2
+  otherreward: ''
+97:
+  section: Goalkeeper 
+  linenumber: 16
+  description: 'Ten 1-on-1 saves - complete ten 1-on-1 saves in your goalkeeping career'
+  skill: GKDiving
+  skillamount: 2
+  otherreward: ''
+98:
+  section: Goalkeeper 
+  linenumber: 17
+  description: '5 clean sheet - finish 5 career matches without conceding a goal'
+  skill: GKHandling
+  skillamount: 2
+  otherreward: ''
+99:
+  section: Goalkeeper 
+  linenumber: 18
+  description: '4 man of the match - win 4 man of the match awards as the goalkeeper'
+  skill: GKKicking
+  skillamount: 2
+  otherreward: ''
+100:
+  section: Goalkeeper 
+  linenumber: 19
+  description: '10 games played - play & complete 10 matches as the goalkeeper'
+  skill: GKPositioning
+  skillamount: 2
+  otherreward: ''
+101:
+  section: Goalkeeper 
+  linenumber: 20
+  description: '10 man of the match awards - win 10 man of the match awards as the goalkeeper'
+  skill: GKReflexes
+  skillamount: 2
+  otherreward: ''
+102:
+  section: Goalkeeper 
+  linenumber: 21
+  description: 'Dive to keep out 4 shots - make 4 diving saves in a match as the goalkeeper'
+  skill: GKDiving
+  skillamount: 2
+  otherreward: ''
+103:
+  section: Goalkeeper 
+  linenumber: 22
+  description: 'Claim 2 crosses - come for & catch or clear 2 crosses in a match'
+  skill: GKHandling
+  skillamount: 2
+  otherreward: ''
+104:
+  section: Goalkeeper 
+  linenumber: 23
+  description: 'Find team mates 6 times - find your team mates with 6 kicks in a match'
+  skill: GKKicking
+  skillamount: 2
+  otherreward: ''
+105:
+  section: Goalkeeper 
+  linenumber: 24
+  description: 'Punch 2 away - make 2 punched saves in a match as the goalkeeper'
+  skill: GKPositioning
+  skillamount: 2
+  otherreward: ''
+106:
+  section: Goalkeeper 
+  linenumber: 25
+  description: 'Command 2 corners - come for & catch or clear 2 corners in a match'
+  skill: GKReflexes
+  skillamount: 2
+  otherreward: ''
+107:
+  section: Goalkeeper 
+  linenumber: 26
+  description: 'Catch 6 in a match - make 6 catches in a match playing as the goalkeeper'
+  skill: GKDiving
+  skillamount: 2
+  otherreward: ''
+108:
+  section: Goalkeeper 
+  linenumber: 27
+  description: '10 career double saves - make 10 double save in your goalkeeping career'
+  skill: GKHandling
+  skillamount: 2
+  otherreward: ''
+109:
+  section: Goalkeeper 
+  linenumber: 28
+  description: '5 wind between the sticks - play in & win 5 matches playing as the goalkeeper'
+  skill: GKKicking
+  skillamount: 2
+  otherreward: ''
+110:
+  section: Goalkeeper 
+  linenumber: 29
+  description: 'Save 10 pens - mark 10 penalty saves in your goalkeeping career'
+  skill: GKPositioning
+  skillamount: 2
+  otherreward: ''
+111:
+  section: Goalkeeper 
+  linenumber: 30
+  description: '25 one-on-ones - make twenty-five 1-on-1 saves in your career'
+  skill: GKReflexes
+  skillamount: 2
+  otherreward: ''
+112:
+  section: Goalkeeper 
+  linenumber: 31
+  description: '6 man of match awards - win 6 man of the match awards in your career'
+  skill: GKDiving
+  skillamount: 2
+  otherreward: ''
+113:
+  section: Goalkeeper 
+  linenumber: 32
+  description: 'Keep them out 10 times - finish 10 matches with no goals conceded in your career'
+  skill: GKHandling
+  skillamount: 3
+  otherreward: ''
+114:
+  section: Goalkeeper 
+  linenumber: 33
+  description: '5 games of solid kicking - finish 5 matches with 75% kicking accuracy in your career'
+  skill: GKKicking
+  skillamount: 3
+  otherreward: ''
+115:
+  section: Goalkeeper 
+  linenumber: 34
+  description: '9 out of 10 five times - finish 5 matches with a match rating of 9/10 in your career'
+  skill: GKPositioning
+  skillamount: 3
+  otherreward: ''
+116:
+  section: Goalkeeper 
+  linenumber: 35
+  description: '25 career games - play & complete 25 matches as the goalkeeper'
+  skill: GKReflexes
+  skillamount: 3
+  otherreward: ''
+117:
+  section: Goalkeeper 
+  linenumber: 36
+  description: 'Make 30 1-on-1 saves - complete thirty 1-on-1 saves in your goalkeeping career'
+  skill: GKDiving
+  skillamount: 3
+  otherreward: ''
+118:
+  section: Goalkeeper 
+  linenumber: 37
+  description: '15 clean sheet - finish 15 career matches without conceding a goal'
+  skill: GKHandling
+  skillamount: 4
+  otherreward: ''
+119:
+  section: Goalkeeper 
+  linenumber: 38
+  description: '10 man of the match - win 10 man of the match awards as the goalkeeper'
+  skill: GKKicking
+  skillamount: 4
+  otherreward: ''
+120:
+  section: Goalkeeper 
+  linenumber: 39
+  description: '50 games played - reach 50 career matches played as the goalkeeper'
+  skill: GKPositioning
+  skillamount: 3
+  otherreward: ''
+121:
+  section: Goalkeeper 
+  linenumber: 40
+  description: '15 man of the match awards - win 15 man of the match awards as the goalkeeper'
+  skill: GKReflexes
+  skillamount: 4
+  otherreward: ''
+122:
+  section: Goalkeeper 
+  linenumber: 41
+  description: 'Consecutive clean sheets - finish 2 consecutive matches with no goals conceded'
+  skill: GKDiving
+  skillamount: 1
+  otherreward: ''
+123:
+  section: Goalkeeper 
+  linenumber: 42
+  description: 'Make 2 double saves - make 2 double saves in a match as the goalkeeper'
+  skill: GKHandling
+  skillamount: 1
+  otherreward: ''
+124:
+  section: Goalkeeper 
+  linenumber: 43
+  description: 'Solid kicking 2 games in a row - finish 2 consecutive matches with 75% kicking accuracy'
+  skill: GKKicking
+  skillamount: 1
+  otherreward: ''
+125:
+  section: Goalkeeper 
+  linenumber: 44
+  description: 'Get voted man of the match twice - win consecutive man of the match awards as the goalkeeper'
+  skill: GKPositioning
+  skillamount: 1
+  otherreward: ''
+126:
+  section: Goalkeeper 
+  linenumber: 45
+  description: '5 diving saves 2 games in a row - make 5 diving saves in 2 consecutive matches'
+  skill: GKReflexes
+  skillamount: 1
+  otherreward: ''
+127:
+  section: Goalkeeper 
+  linenumber: 46
+  description: 'Stop three 1-on-1s - finish a match as the goalkeeper with three 1-on-1 saves'
+  skill: GKDiving
+  skillamount: 2
+  otherreward: ''
+128:
+  section: Goalkeeper 
+  linenumber: 47
+  description: 'Save a spot kick - make a penalty save in a match as the goalkeeper'
+  skill: GKHandling
+  skillamount: 2
+  otherreward: ''
+129:
+  section: Goalkeeper 
+  linenumber: 48
+  description: 'Punt accurately for 5 games - finish 5 matches with 75% kicking accuracy in your career'
+  skill: GKKicking
+  skillamount: 2
+  otherreward: ''
+130:
+  section: Goalkeeper 
+  linenumber: 49
+  description: 'Get a 9/10 rating - finish a match with a final rating of at least 9 out of 10'
+  skill: GKPositioning
+  skillamount: 2
+  otherreward: ''
+131:
+  section: Goalkeeper 
+  linenumber: 50
+  description: 'Make 6 diving saves - make 6 diving saves in a match as the goalkeeper'
+  skill: GKReflexes
+  skillamount: 2
+  otherreward: ''
+132:
+  section: Kit & Appearance 
+  linenumber: 1
+  description: 'Make your debut - make your first appearance as a Virtual Pro in any match'
+  skill: 
+  skillamount: 
+  otherreward: 'Shirt Untucked'
+133:
+  section: Kit & Appearance 
+  linenumber: 2
+  description: 'Play in the rain - play your first match as a Pro in rainy weather conditions'
+  skill: 
+  skillamount: 
+  otherreward: 'Long Sleeve Shirt'
+134:
+  section: Kit & Appearance 
+  linenumber: 3
+  description: 'Win 2 free kicks - get fouled and win a free kick for your team twice in your career'
+  skill: 
+  skillamount: 
+  otherreward: 'White Ankle Tape'
+135:
+  section: Kit & Appearance 
+  linenumber: 4
+  description: 'Brave the snow - play your first match as a Pro in snowy weather conditions'
+  skill: 
+  skillamount: 
+  otherreward: 'Black Winter Gloves'
+136:
+  section: Kit & Appearance 
+  linenumber: 5
+  description: '8 games in goal - complete 8 matches with your Virtual Pro as a goalkeeper'
+  skill: 
+  skillamount: 
+  otherreward: 'White GK Gloves'
+137:
+  section: Kit & Appearance 
+  linenumber: 6
+  description: '5 free kicks won -get fouled and win 5 free-kicks in your career'
+  skill: 
+  skillamount: 
+  otherreward: 'Black & Grey Ankle Tape'
+138:
+  section: Kit & Appearance 
+  linenumber: 7
+  description: '10 throw-ins - take 10 throw-ins through the course of your career'
+  skill: 
+  skillamount: 
+  otherreward: 'Black Wrist Tape'
+139:
+  section: Kit & Appearance 
+  linenumber: 8
+  description: 'Get your revenge twice - twice in your career'
+  skill:  tackle an opponent that has previously fouled you
+  skillamount: 
+  otherreward: ''
+140:
+  section: Kit & Appearance 
+  linenumber: 9
+  description: '20 throw-ins - take 10 throw-ins throughout the course of your career'
+  skill: 
+  skillamount: 
+  otherreward: 'Coloured Wrist Tape'
+141:
+  section: Kit & Appearance 
+  linenumber: 10
+  description: 'Total completion 6% - complete 6% of the 400 Virtual Pro Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Black Boots'
+142:
+  section: Kit & Appearance 
+  linenumber: 11
+  description: 'Mental 10 - complete 10 of the 30 Mental Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Medium Length Hair Styles'
+143:
+  section: Kit & Appearance 
+  linenumber: 12
+  description: 'Goalkeeper 10 - complete 10 of the 50 Goalkeeper Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Blue & Red GK Gloves'
+144:
+  section: Kit & Appearance 
+  linenumber: 13
+  description: 'Physical 10 - complete 10 of the 50 Physical Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Under Armour Shirt'
+145:
+  section: Kit & Appearance 
+  linenumber: 14
+  description: 'Total completion 12% - complete 12% of the 400 Virtual Pro accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Grey Boots'
+146:
+  section: Kit & Appearance 
+  linenumber: 15
+  description: 'Physical 25 - complete 25 of the 50 Physical Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Coloured Winter Gloves'
+147:
+  section: Kit & Appearance 
+  linenumber: 16
+  description: 'Goalkeeper 20 - complete 20 of the 50 Goalkeeper Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'New GK Gloves'
+148:
+  section: Kit & Appearance 
+  linenumber: 17
+  description: 'Total completion 18% - complete 18% of the 400 Virtual Pro accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Blue Boots'
+149:
+  section: Kit & Appearance 
+  linenumber: 18
+  description: 'Goalkeeper 25 - complete 25 of the 50 Goalkeeper Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Black GK Helmet'
+150:
+  section: Kit & Appearance 
+  linenumber: 19
+  description: 'Mental 15 - complete 15 of the 30 Mental Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Long Hair Styles'
+151:
+  section: Kit & Appearance 
+  linenumber: 20
+  description: 'Total completion 22% - complete 22% of the 400 Virtual Pro accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Green & Red Boots'
+152:
+  section: Kit & Appearance 
+  linenumber: 21
+  description: 'Mental 20 - complete 20 of the 30 Mental Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Afro Hair Styles'
+153:
+  section: Kit & Appearance 
+  linenumber: 22
+  description: 'Passing 30 - complete 30 of the 50 Passing Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Under Armour w/ Collar'
+154:
+  section: Kit & Appearance 
+  linenumber: 23
+  description: 'Goalkeeper 30 - complete 30 of the 50 Goalkeeper Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'New GK Gloves'
+155:
+  section: Kit & Appearance 
+  linenumber: 24
+  description: 'Total completion 30% - complete 30% of the 400 Virtual Pro accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Yellow & Orange Boots'
+156:
+  section: Kit & Appearance 
+  linenumber: 25
+  description: 'Ball Skills 20 - complete 20 of the 30 Ball Skills Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Low Sock Height'
+157:
+  section: Kit & Appearance 
+  linenumber: 26
+  description: 'Mental 25 - complete 25 of the 30 Mental Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Extra Hair Colours'
+158:
+  section: Kit & Appearance 
+  linenumber: 27
+  description: 'Goalkeeper 35 - complete 35 of the 50 Goalkeeper Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'New GK Gloves'
+159:
+  section: Kit & Appearance 
+  linenumber: 28
+  description: 'Total completion 50% - complete 50% of the 400 Virtual Pro accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'White Boots'
+160:
+  section: Kit & Appearance 
+  linenumber: 29
+  description: 'Goalkeeper 45 - complete 45 of the 50 Goalkeeper Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Gold GK Gloves & Helmet'
+161:
+  section: Kit & Appearance 
+  linenumber: 30
+  description: 'Total completion 75% - complete 75% of the 400 Virtual Pro accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Gold Boots'
+162:
+  section: Mental 
+  linenumber: 1
+  description: '6 tackles won - win 6 tackles in a single match with your Pro playing any position'
+  skill: Aggression
+  skillamount: 2
+  otherreward: ''
+163:
+  section: Mental 
+  linenumber: 2
+  description: 'Tap one in from close - score a goal when a maximum of 3 yards away from goal'
+  skill: Positioning
+  skillamount: 2
+  otherreward: ''
+164:
+  section: Mental 
+  linenumber: 3
+  description: 'Catch them offside - playing as a defender catch an opposition player offside'
+  skill: TacticalAwareness
+  skillamount: 2
+  otherreward: ''
+165:
+  section: Mental 
+  linenumber: 4
+  description: 'Create 2 goals - have your Pro credited for 2 assists in a single match'
+  skill: Vision
+  skillamount: 2
+  otherreward: ''
+166:
+  section: Mental 
+  linenumber: 5
+  description: 'Get your revenge - win the ball from a player who has previously fouled you'
+  skill: Aggression
+  skillamount: 2
+  otherreward: ''
+167:
+  section: Mental 
+  linenumber: 6
+  description: 'Hold your runs 2 games in a row - play 2 matches as a forward without being caught offside'
+  skill: Positioning
+  skillamount: 2
+  otherreward: ''
+168:
+  section: Mental 
+  linenumber: 7
+  description: '50% stamina used - finish a match with at least 50% stamina remaining'
+  skill: TacticalAwareness
+  skillamount: 3
+  otherreward: ''
+169:
+  section: Mental 
+  linenumber: 8
+  description: 'Header back to the goalie - safely header the ball back to the goalkeeper to collect'
+  skill: Vision
+  skillamount: 2
+  otherreward: ''
+170:
+  section: Mental 
+  linenumber: 9
+  description: 'No yellow cards 2 matches running - 2 consecutive matches as a defender without a yellow'
+  skill: Aggression
+  skillamount: 3
+  otherreward: ''
+171:
+  section: Mental 
+  linenumber: 10
+  description: 'Score a standing header - score a headed goal that does not require your player to jump'
+  skill: Positioning
+  skillamount: 3
+  otherreward: ''
+172:
+  section: Mental 
+  linenumber: 11
+  description: '10 man of the match awards - win the man of the match award 10 times in your career'
+  skill: TacticalAwareness
+  skillamount: 2
+  otherreward: ''
+173:
+  section: Mental 
+  linenumber: 12
+  description: 'Create 25 goals - Have your Pro credited for a total of 25 career assists'
+  skill: Vision
+  skillamount: 2
+  otherreward: ''
+174:
+  section: Mental 
+  linenumber: 13
+  description: 'Win 50 tackles - win a total of 50 tackles of any type in your career'
+  skill: Aggression
+  skillamount: 2
+  otherreward: ''
+175:
+  section: Mental 
+  linenumber: 14
+  description: 'Score 10 from 3 yards out - score a total of 10 goals from a maximum of 3 yards out'
+  skill: Positioning
+  skillamount: 3
+  otherreward: ''
+176:
+  section: Mental 
+  linenumber: 15
+  description: 'Catch them offside 10 times - Catch the opposition offside 10 times in your career as a defender'
+  skill: TacticalAwareness
+  skillamount: 3
+  otherreward: ''
+177:
+  section: Mental 
+  linenumber: 16
+  description: 'Create 50 goals - have your Pro credited from a total of 50 career assists'
+  skill: Vision
+  skillamount: 2
+  otherreward: ''
+178:
+  section: Mental 
+  linenumber: 17
+  description: 'Get revenge 10 times - tackle a player who has fouled you  on 10 separate occasions'
+  skill: Aggression
+  skillamount: 3
+  otherreward: ''
+179:
+  section: Mental 
+  linenumber: 18
+  description: 'Nod in 10 standing headers - score 10 goals with your head without needing to leave the ground'
+  skill: Positioning
+  skillamount: 3
+  otherreward: ''
+180:
+  section: Mental 
+  linenumber: 19
+  description: 'Play in 30 wins - play and win a total of 30 games with your Pro'
+  skill: TacticalAwareness
+  skillamount: 3
+  otherreward: ''
+181:
+  section: Mental 
+  linenumber: 20
+  description: '100 total assists - have your Pro credited for a total of 100 career assists'
+  skill: Vision
+  skillamount: 3
+  otherreward: ''
+182:
+  section: Mental 
+  linenumber: 21
+  description: 'Create 3 goals in a game - have your Pro credited for a total of 3 assists in a single match'
+  skill: Vision
+  skillamount: 2
+  otherreward: ''
+183:
+  section: Mental 
+  linenumber: 22
+  description: 'Get your revenge twice - win the ball from players who have previously fouled you twice in a match'
+  skill: Aggression
+  skillamount: 2
+  otherreward: ''
+184:
+  section: Mental 
+  linenumber: 23
+  description: 'Score 2 from within 3 yards - score 2 goals in a match from within 3 yards'
+  skill: Positioning
+  skillamount: 3
+  otherreward: ''
+185:
+  section: Mental 
+  linenumber: 24
+  description: 'Chip the keeper from distance - score a goal from outside the box using the chip shot'
+  skill: Vision
+  skillamount: 3
+  otherreward: ''
+186:
+  section: Mental 
+  linenumber: 25
+  description: 'Win 50 sliding tackles - win a total of 50 sliding tackles in your career'
+  skill: Aggression
+  skillamount: 3
+  otherreward: ''
+187:
+  section: Mental 
+  linenumber: 26
+  description: 'Score 2 rebounds off the post - score 2 goals from shots that have come back off a post in a match'
+  skill: Positioning
+  skillamount: 3
+  otherreward: ''
+188:
+  section: Mental 
+  linenumber: 27
+  description: 'Play in 25 wins - play in and win a total of 25 games with your Pro'
+  skill: TacticalAwareness
+  skillamount: 3
+  otherreward: ''
+189:
+  section: Mental 
+  linenumber: 28
+  description: 'Complete 100 tackles - complete a total of 100 successful tackles in your Pro career'
+  skill: Aggression
+  skillamount: 3
+  otherreward: ''
+190:
+  section: Mental 
+  linenumber: 29
+  description: 'Create 5 goals in a match - have your Pro credited for a total of 5 assists in a single match'
+  skill: Vision
+  skillamount: 3
+  otherreward: ''
+191:
+  section: Mental 
+  linenumber: 30
+  description: 'Win man of the match 25 times - win the man of the match award 25 times in your career'
+  skill: TacticalAwareness
+  skillamount: 4
+  otherreward: ''
+192:
+  section: Passing 
+  linenumber: 1
+  description: 'Cross to the back post - find a team mate with a cross to the far post '
+  skill: Crossing
+  skillamount: 1
+  otherreward: ''
+193:
+  section: Passing 
+  linenumber: 2
+  description: 'Accurate lobbed ball - find a team mate with an accurate lobbed pass'
+  skill: LongPassing
+  skillamount: 1
+  otherreward: ''
+194:
+  section: Passing 
+  linenumber: 3
+  description: 'Keep the ball after 4 passes - play 4 consecutive ground passes without conceding possession'
+  skill: ShortPassing
+  skillamount: 1
+  otherreward: ''
+195:
+  section: Passing 
+  linenumber: 4
+  description: 'Cross to the near post - find a team mate with a cross to the front post '
+  skill: Crossing
+  skillamount: 1
+  otherreward: ''
+196:
+  section: Passing 
+  linenumber: 5
+  description: 'Switch the play - play a lobbed pass from left to right when in defence or midfield'
+  skill: LongPassing
+  skillamount: 1
+  otherreward: ''
+197:
+  section: Passing 
+  linenumber: 6
+  description: '8 ground passes - play 8 accurate ground passes in a single match with your Pro'
+  skill: ShortPassing
+  skillamount: 1
+  otherreward: ''
+198:
+  section: Passing 
+  linenumber: 7
+  description: 'Cross along the ground - find a team mate with a cross along the ground '
+  skill: Crossing
+  skillamount: 1
+  otherreward: ''
+199:
+  section: Passing 
+  linenumber: 8
+  description: 'Play 2 though balls - find your team mate with through balls twice in a match'
+  skill: LongPassing
+  skillamount: 1
+  otherreward: ''
+200:
+  section: Passing 
+  linenumber: 9
+  description: 'Assist with ground pass - set up a goal for a team mate with a pass along the ground'
+  skill: ShortPassing
+  skillamount: 1
+  otherreward: ''
+201:
+  section: Passing 
+  linenumber: 10
+  description: 'Back post set-up - assist a team mate with a cross to the back post'
+  skill: Crossing
+  skillamount: 1
+  otherreward: ''
+202:
+  section: Passing 
+  linenumber: 11
+  description: 'Accurate lobbed pass - finish a match with 50% long pass accuracy '
+  skill: LongPassing
+  skillamount: 1
+  otherreward: ''
+203:
+  section: Passing 
+  linenumber: 12
+  description: 'Ground pass success - finish a match with 75% ground pass accuracy '
+  skill: ShortPassing
+  skillamount: 1
+  otherreward: ''
+204:
+  section: Passing 
+  linenumber: 13
+  description: 'Create at the front post - set up a goal for a team mate with a cross to the near post'
+  skill: Crossing
+  skillamount: 1
+  otherreward: ''
+205:
+  section: Passing 
+  linenumber: 14
+  description: 'Lobbed through ball assist - assist a team mate in scoring with a lobbed through pass'
+  skill: LongPassing
+  skillamount: 1
+  otherreward: ''
+206:
+  section: Passing 
+  linenumber: 15
+  description: '2 ground pass assists - set up 2 goals with passes along the ground'
+  skill: ShortPassing
+  skillamount: 1
+  otherreward: ''
+207:
+  section: Passing 
+  linenumber: 16
+  description: 'Assist with a ground cross - set up a goal for a team mate with a cross along the ground'
+  skill: Crossing
+  skillamount: 1
+  otherreward: ''
+208:
+  section: Passing 
+  linenumber: 17
+  description: 'Lobbed pass assist - set up a goal for a team mate with a lobbed pass'
+  skill: LongPassing
+  skillamount: 1
+  otherreward: ''
+209:
+  section: Passing 
+  linenumber: 18
+  description: 'Consecutive ground pass assists - create a goal with a ground pass in consecutive matches'
+  skill: ShortPassing
+  skillamount: 1
+  otherreward: ''
+210:
+  section: Passing 
+  linenumber: 19
+  description: 'Cross for a goal 2 games in a row - create a goal from a cross in consecutive matches'
+  skill: Crossing
+  skillamount: 1
+  otherreward: ''
+211:
+  section: Passing 
+  linenumber: 20
+  description: 'Consecutive 50% long pass - finish consecutive matches with 50% long passes '
+  skill: LongPassing
+  skillamount: 1
+  otherreward: ''
+212:
+  section: Passing 
+  linenumber: 21
+  description: '5 games with 75% ground passes - finish 5 matches with 75% ground passes '
+  skill: ShortPassing
+  skillamount: 1
+  otherreward: ''
+213:
+  section: Passing 
+  linenumber: 22
+  description: 'Create 4 goals from crosses - create 4 goals from crosses throughout your career'
+  skill: Crossing
+  skillamount: 1
+  otherreward: ''
+214:
+  section: Passing 
+  linenumber: 23
+  description: '50% lobbed passes in 10 games - finish 10 matches with 50% lobbed pas completion '
+  skill: LongPassing
+  skillamount: 1
+  otherreward: ''
+215:
+  section: Passing 
+  linenumber: 24
+  description: '100 ground passes - complete a minimum of 100 ground passes in your career'
+  skill: ShortPassing
+  skillamount: 1
+  otherreward: ''
+216:
+  section: Passing 
+  linenumber: 25
+  description: '10 goals from back post crosses - create 10 goals from crosses to the back post in your career'
+  skill: Crossing
+  skillamount: 1
+  otherreward: ''
+217:
+  section: Passing 
+  linenumber: 26
+  description: '50 lobbed passes - complete a minimum of 50 lobbed passes in your career'
+  skill: LongPassing
+  skillamount: 1
+  otherreward: ''
+218:
+  section: Passing 
+  linenumber: 27
+  description: 'Set up 5 with short passes - create 5 goals from ground passes during your career'
+  skill: ShortPassing
+  skillamount: 1
+  otherreward: ''
+219:
+  section: Passing 
+  linenumber: 28
+  description: 'Create 5 from near post crosses - get credited for 5 career assists from crosses to the near post'
+  skill: Crossing
+  skillamount: 1
+  otherreward: ''
+220:
+  section: Passing 
+  linenumber: 29
+  description: 'Switch the play 10 times - play a lobbed pass from the left to the right 10 times in your career'
+  skill: LongPassing
+  skillamount: 1
+  otherreward: ''
+221:
+  section: Passing 
+  linenumber: 30
+  description: '75% ground passes in 15 matches - complete 15 matches with 75% ground passes '
+  skill: ShortPassing
+  skillamount: 1
+  otherreward: ''
+222:
+  section: Passing 
+  linenumber: 31
+  description: '50 accurate crosses - find your team mates with 50 crosses in your career'
+  skill: Crossing
+  skillamount: 2
+  otherreward: ''
+223:
+  section: Passing 
+  linenumber: 32
+  description: '50% lobbed passes in 20 games - complete 20 matches with min 50% lobbed passes '
+  skill: LongPassing
+  skillamount: 1
+  otherreward: ''
+224:
+  section: Passing 
+  linenumber: 33
+  description: '20 through ball assists - create 20 career goals from through ball passes'
+  skill: ShortPassing
+  skillamount: 2
+  otherreward: ''
+225:
+  section: Passing 
+  linenumber: 34
+  description: '10 ground cross assists - set up 10 goals with crosses along the ground in your career'
+  skill: Crossing
+  skillamount: 2
+  otherreward: ''
+226:
+  section: Passing 
+  linenumber: 35
+  description: '150 lobbed passes - find your team mates with 150 lobbed passes in your career'
+  skill: LongPassing
+  skillamount: 2
+  otherreward: ''
+227:
+  section: Passing 
+  linenumber: 36
+  description: '20 assists from ground passes - create 20 goals from ground passes in your career'
+  skill: ShortPassing
+  skillamount: 2
+  otherreward: ''
+228:
+  section: Passing 
+  linenumber: 37
+  description: 'Create 20 goals with crosses - get credited for 20 assists from any type of cross in your career'
+  skill: Crossing
+  skillamount: 2
+  otherreward: ''
+229:
+  section: Passing 
+  linenumber: 38
+  description: '50% lobbed passes in 25 games - complete 25 matches with 50% long pass accuracy '
+  skill: LongPassing
+  skillamount: 2
+  otherreward: ''
+230:
+  section: Passing 
+  linenumber: 39
+  description: '25 matches with 75% ground passes - complete 25 matches with 75% ground passes '
+  skill: ShortPassing
+  skillamount: 2
+  otherreward: ''
+231:
+  section: Passing 
+  linenumber: 40
+  description: 'Create 30 goals from crosses - get credited for 30 assists from any type of cross in your career'
+  skill: Crossing
+  skillamount: 2
+  otherreward: ''
+232:
+  section: Passing 
+  linenumber: 41
+  description: 'Consecutive lobbed pass assists - create a goal with a lobbed pass in consecutive matches'
+  skill: LongPassing
+  skillamount: 1
+  otherreward: ''
+233:
+  section: Passing 
+  linenumber: 42
+  description: 'Consecutive ground pass assists - create 2 goals with a ground pass in consecutive games'
+  skill: ShortPassing
+  skillamount: 1
+  otherreward: ''
+234:
+  section: Passing 
+  linenumber: 43
+  description: '2 cross assists back to back - assist your team mates with 2 crosses in consecutive games'
+  skill: Crossing
+  skillamount: 1
+  otherreward: ''
+235:
+  section: Passing 
+  linenumber: 44
+  description: '15 matches with 50% long pass - finish 15 matches with at least 50% long pass accuracy '
+  skill: LongPassing
+  skillamount: 1
+  otherreward: ''
+236:
+  section: Passing 
+  linenumber: 45
+  description: '20 matches with 75% ground pass - finish 20 matches with at least 75% pass accuracy '
+  skill: ShortPassing
+  skillamount: 1
+  otherreward: ''
+237:
+  section: Passing 
+  linenumber: 46
+  description: 'Set up 4 goals in a game - get credited for at least 4 assists in a single match'
+  skill: LongPassing
+  skillamount: 1
+  otherreward: ''
+238:
+  section: Passing 
+  linenumber: 47
+  description: '3 cross assists back to back - create 3 goals from crosses in consecutive matches'
+  skill: Crossing
+  skillamount: 1
+  otherreward: ''
+239:
+  section: Passing 
+  linenumber: 48
+  description: '50 assists from ground passes - create 50 goals with short passes throughout your career'
+  skill: ShortPassing
+  skillamount: 1
+  otherreward: ''
+240:
+  section: Passing 
+  linenumber: 49
+  description: '50 lobbed through pass assists - create 50 goals with a lobbed through pass in your career'
+  skill: LongPassing
+  skillamount: 1
+  otherreward: ''
+241:
+  section: Passing 
+  linenumber: 50
+  description: '50 ground through ball assists - create 50 goals with through balls on the ground in your career'
+  skill: ShortPassing
+  skillamount: 1
+  otherreward: ''
+242:
+  section: Physical 
+  linenumber: 1
+  description: 'Beat 2 players - dribble past 2 players in a single match with your Virtual Pro'
+  skill: Agility
+  skillamount: 2
+  otherreward: ''
+243:
+  section: Physical 
+  linenumber: 2
+  description: 'Win a free kick - get fouled & win your team a free kick in a match'
+  skill: Balance
+  skillamount: 2
+  otherreward: ''
+244:
+  section: Physical 
+  linenumber: 3
+  description: 'Man of the match in midfield - win the man of the match award when playing in midfield'
+  skill: Acceleration
+  skillamount: 1
+  otherreward: ''
+245:
+  section: Physical 
+  linenumber: 4
+  description: 'Two 9/10 ratings - get a rating of 9 out of 10 or higher on 2 occasions in your career'
+  skill: SprintSpeed
+  skillamount: 1
+  otherreward: ''
+246:
+  section: Physical 
+  linenumber: 5
+  description: 'Win 3 headers - win a minimum of 3 headers in any match with your Pro'
+  skill: Strength
+  skillamount: 1
+  otherreward: ''
+247:
+  section: Physical 
+  linenumber: 6
+  description: 'Score with weaker foot - score a goal with your weaker foot from any distance'
+  skill: WeakFootAbility
+  skillamount: 1
+  otherreward: ''
+248:
+  section: Physical 
+  linenumber: 7
+  description: '50% stamina left after 2 games - finish 2 matches with 50% stamina remaining at the end'
+  skill: Stamina
+  skillamount: 2
+  otherreward: ''
+249:
+  section: Physical 
+  linenumber: 8
+  description: '2 jumping headers - win a total of 2 jumping headers in a match with your Virtual Pro'
+  skill: Strength
+  skillamount: 1
+  otherreward: ''
+250:
+  section: Physical 
+  linenumber: 9
+  description: 'Beat 10 players in career - dribble past a total of 10 players during your career'
+  skill: SprintSpeed
+  skillamount: 1
+  otherreward: ''
+251:
+  section: Physical 
+  linenumber: 10
+  description: '4 games played - play in & finish at least 4 total matches as a Virutal Pro'
+  skill: Stamina
+  skillamount: 2
+  otherreward: ''
+252:
+  section: Physical 
+  linenumber: 11
+  description: 'Play 3 in the snow - Play at least 3 matches in the snowy weather conditions'
+  skill: Balance
+  skillamount: 3
+  otherreward: ''
+253:
+  section: Physical 
+  linenumber: 12
+  description: 'Man of the match as a forward - win the man of the match award playing as a forward'
+  skill: Acceleration
+  skillamount: 1
+  otherreward: ''
+254:
+  section: Physical 
+  linenumber: 13
+  description: 'Win 5 games - play in & win at least 5 total matches as a Virtual Pro'
+  skill: Strength
+  skillamount: 1
+  otherreward: ''
+255:
+  section: Physical 
+  linenumber: 14
+  description: 'Goal line save as a midfielder - make a goal line clearance when playing as a midfielder'
+  skill: Reactions
+  skillamount: 2
+  otherreward: ''
+256:
+  section: Physical 
+  linenumber: 15
+  description: 'Dribble past 3 back to back - dribble past at least 3 players in consecutive matches'
+  skill: SprintSpeed
+  skillamount: 1
+  otherreward: ''
+257:
+  section: Physical 
+  linenumber: 16
+  description: '3 jumping headers - win a total of 3 jumping headers in a match with your Virtual Pro'
+  skill: Jumping
+  skillamount: 1
+  otherreward: ''
+258:
+  section: Physical 
+  linenumber: 17
+  description: 'Four 9 out of 10 ratings - get a match rating of at least 9 out of 10 four times in your career'
+  skill: Acceleration
+  skillamount: 1
+  otherreward: ''
+259:
+  section: Physical 
+  linenumber: 18
+  description: 'Rebound off the post -  score a rebound from a shot that comes back off the post'
+  skill: Reactions
+  skillamount: 3
+  otherreward: ''
+260:
+  section: Physical 
+  linenumber: 19
+  description: '2 career volleys - score 2 goals from any type of volley in your career'
+  skill: Agility
+  skillamount: 3
+  otherreward: ''
+261:
+  section: Physical 
+  linenumber: 20
+  description: 'Climb to win 6 headers - win a total of 6 jumping headers in your Pro career'
+  skill: Jumping
+  skillamount: 2
+  otherreward: ''
+262:
+  section: Physical 
+  linenumber: 21
+  description: '30 players beat - dribble past a total of 30 players during the course of your career'
+  skill: Acceleration
+  skillamount: 1
+  otherreward: ''
+263:
+  section: Physical 
+  linenumber: 22
+  description: '6 man of the match awards - win the man of the match award on 6 occasions in your career'
+  skill: SprintSpeed
+  skillamount: 1
+  otherreward: ''
+264:
+  section: Physical 
+  linenumber: 23
+  description: '10 games as a midfielder - play in at least 10 matches with your Pro as a midfielder'
+  skill: Stamina
+  skillamount: 2
+  otherreward: ''
+265:
+  section: Physical 
+  linenumber: 24
+  description: '25 total headers won - win a total of 25 headers through the course of your career'
+  skill: Strength
+  skillamount: 1
+  otherreward: ''
+266:
+  section: Physical 
+  linenumber: 25
+  description: '5 weak foot goals - score at least 5 goals using your weaker foot in your career'
+  skill: WeakFootAbility
+  skillamount: 1
+  otherreward: ''
+267:
+  section: Physical 
+  linenumber: 26
+  description: '25 jumping headers - win a total of 25 jumping headers in your career'
+  skill: Jumping
+  skillamount: 2
+  otherreward: ''
+268:
+  section: Physical 
+  linenumber: 27
+  description: '10 games as a forward - play in at least 10 games as a forward in your career'
+  skill: Stamina
+  skillamount: 2
+  otherreward: ''
+269:
+  section: Physical 
+  linenumber: 28
+  description: '3 goals from back off the post - score 3 goals from shots that come back off the post'
+  skill: Reactions
+  skillamount: 4
+  otherreward: ''
+270:
+  section: Physical 
+  linenumber: 29
+  description: 'Climb & score 10 headers - score at least 10 goals from jumping headers in your career'
+  skill: Jumping
+  skillamount: 2
+  otherreward: ''
+271:
+  section: Physical 
+  linenumber: 30
+  description: 'Win 150 tackles - win a total of 150 tackles of any type in your career'
+  skill: Strength
+  skillamount: 2
+  otherreward: ''
+272:
+  section: Physical 
+  linenumber: 31
+  description: '25 games in midfield - play at least 25 games as a midfielder in your career'
+  skill: Stamina
+  skillamount: 3
+  otherreward: ''
+273:
+  section: Physical 
+  linenumber: 32
+  description: '15 man of the match awards - win the man of the match award on 15 occasions'
+  skill: SprintSpeed
+  skillamount: 2
+  otherreward: ''
+274:
+  section: Physical 
+  linenumber: 33
+  description: '10 matches in the rain - play through at least 10 matches in rainy weather conditions'
+  skill: Agility
+  skillamount: 3
+  otherreward: ''
+275:
+  section: Physical 
+  linenumber: 34
+  description: 'Brave the snow for 10 games - play through at least 10 matches in snowy weather conditions'
+  skill: Balance
+  skillamount: 3
+  otherreward: ''
+276:
+  section: Physical 
+  linenumber: 35
+  description: '9/10 rating in 7 matches - get a match rating of 9/10 in 7 matches in your career'
+  skill: Acceleration
+  skillamount: 2
+  otherreward: ''
+277:
+  section: Physical 
+  linenumber: 36
+  description: '25 games as a forward - play at least 25 matches as a forward in your career'
+  skill: Stamina
+  skillamount: 4
+  otherreward: ''
+278:
+  section: Physical 
+  linenumber: 37
+  description: '3 goal line clearances - make a total of 3 goal line clearances in your career'
+  skill: Reactions
+  skillamount: 5
+  otherreward: ''
+279:
+  section: Physical 
+  linenumber: 38
+  description: '30 man of the match awards - win the man of the match award on 30 occasions'
+  skill: SprintSpeed
+  skillamount: 2
+  otherreward: ''
+280:
+  section: Physical 
+  linenumber: 39
+  description: 'Get fouled & win 50 free kicks - get fouled & win 50 free kicks in your career'
+  skill: Strength
+  skillamount: 2
+  otherreward: ''
+281:
+  section: Physical 
+  linenumber: 40
+  description: 'Dribble past 100 - dribble past a total of 100 players in your career'
+  skill: Acceleration
+  skillamount: 2
+  otherreward: ''
+282:
+  section: Physical 
+  linenumber: 41
+  description: '50% stamina remaining after 2 - finish 2 consecutive matches with 50% stamina remaining'
+  skill: Stamina
+  skillamount: 3
+  otherreward: ''
+283:
+  section: Physical 
+  linenumber: 42
+  description: 'Volley in consecutive matches - score a volley of any type in 2 consecutive matches'
+  skill: Agility
+  skillamount: 4
+  otherreward: ''
+284:
+  section: Physical 
+  linenumber: 43
+  description: '2 jumping headers in 1 game - climb to score 2 jumping headers in a single match'
+  skill: Jumping
+  skillamount: 3
+  otherreward: ''
+285:
+  section: Physical 
+  linenumber: 44
+  description: 'Win 25 free kicks - get fouled & win your team a free kick 25 times in your career'
+  skill: Balance
+  skillamount: 4
+  otherreward: ''
+286:
+  section: Physical 
+  linenumber: 45
+  description: 'Travel 3500 yards in 25 games - travel a minimum of 3500 yards in 25 career matches'
+  skill: Stamina
+  skillamount: 4
+  otherreward: ''
+287:
+  section: Physical 
+  linenumber: 46
+  description: '20 man of the match awards - win the man of the match award 20 times in your career'
+  skill: Reactions
+  skillamount: 5
+  otherreward: ''
+288:
+  section: Physical 
+  linenumber: 47
+  description: 'Play 100 games - play in & complete 100 matches with your Virtual Pro'
+  skill: Strength
+  skillamount: 2
+  otherreward: ''
+289:
+  section: Physical 
+  linenumber: 48
+  description: 'Weak foot from range - score a goal with your weaker foot from outside the penalty box'
+  skill: WeakFootAbility
+  skillamount: 1
+  otherreward: ''
+290:
+  section: Physical 
+  linenumber: 49
+  description: '10 ratings of 9/10 - get a match rating of at least 9/10 in ten career matches'
+  skill: SprintSpeed
+  skillamount: 2
+  otherreward: ''
+291:
+  section: Physical 
+  linenumber: 50
+  description: 'Win 50 matches - play in 50 matches where your team celebrates victory'
+  skill: Acceleration
+  skillamount: 2
+  otherreward: ''
+292:
+  section: Shooting 
+  linenumber: 1
+  description: 'Drill one in from close - score a goal with the laces shot when inside the penalty box'
+  skill: ShotPower
+  skillamount: 1
+  otherreward: ''
+293:
+  section: Shooting 
+  linenumber: 2
+  description: 'Finish with finesse - score a goal with the finesse shot when inside the penalty box'
+  skill: Finishing
+  skillamount: 1
+  otherreward: ''
+294:
+  section: Shooting 
+  linenumber: 3
+  description: 'Score a header - score a goal with a header from any distance'
+  skill: Heading
+  skillamount: 2
+  otherreward: ''
+295:
+  section: Shooting 
+  linenumber: 4
+  description: 'Drive from distance - score a goal with the laces shot from outside the penalty box'
+  skill: ShotPower
+  skillamount: 1
+  otherreward: ''
+296:
+  section: Shooting 
+  linenumber: 5
+  description: 'Curl one from outside - score a goal with the finesse shot from outside the penalty box'
+  skill: LongShots
+  skillamount: 1
+  otherreward: ''
+297:
+  section: Shooting 
+  linenumber: 6
+  description: 'Bend in a freekick - score a goal from a free kick in any match with your Pro'
+  skill: FKAccuracy
+  skillamount: 1
+  otherreward: ''
+298:
+  section: Shooting 
+  linenumber: 7
+  description: 'Score a volley - score a goal with a volley inside the penalty box'
+  skill: Volleys
+  skillamount: 3
+  otherreward: ''
+299:
+  section: Shooting 
+  linenumber: 8
+  description: '2 headers in a match - score 2 headers in a single match with you Pro'
+  skill: Heading
+  skillamount: 2
+  otherreward: ''
+300:
+  section: Shooting 
+  linenumber: 9
+  description: 'Tuck home a penalty - score a goal from a penalty in any match with your Pro'
+  skill: Penalties
+  skillamount: 3
+  otherreward: ''
+301:
+  section: Shooting 
+  linenumber: 10
+  description: 'Chip the keeper from outside - score a goal using the chip shot from outside the box'
+  skill: LongShots
+  skillamount: 1
+  otherreward: ''
+302:
+  section: Shooting 
+  linenumber: 11
+  description: 'Finesse in consecutive games - score a goal using the finesse shot in consecutive matches'
+  skill: Finishing
+  skillamount: 1
+  otherreward: ''
+303:
+  section: Shooting 
+  linenumber: 12
+  description: 'Two from range - score 2 goals from outside the penalty box in a match'
+  skill: ShotPower
+  skillamount: 2
+  otherreward: ''
+304:
+  section: Shooting 
+  linenumber: 13
+  description: 'Dink the keeper - score a chip shot when inside the penalty box'
+  skill: Finishing
+  skillamount: 1
+  otherreward: ''
+305:
+  section: Shooting 
+  linenumber: 14
+  description: 'Consecutive goals from outside - score a goal from outside the box in consecutive matches'
+  skill: LongShots
+  skillamount: 2
+  otherreward: ''
+306:
+  section: Shooting 
+  linenumber: 15
+  description: 'Weak footer 2 games in a row - score a goal with your weaker foot in consecutive matches'
+  skill: Finishing
+  skillamount: 2
+  otherreward: ''
+307:
+  section: Shooting 
+  linenumber: 16
+  description: 'Header in back to back games - score a goal with a header in consecutive matches'
+  skill: Heading
+  skillamount: 2
+  otherreward: ''
+308:
+  section: Shooting 
+  linenumber: 17
+  description: 'Score from 32 yards or further - score with a shot from at least 32 yards away from goal'
+  skill: LongShots
+  skillamount: 2
+  otherreward: ''
+309:
+  section: Shooting 
+  linenumber: 18
+  description: 'Grab a hat trick - score 3 goals & claim your first hat trick in any match'
+  skill: ShotPower
+  skillamount: 2
+  otherreward: ''
+310:
+  section: Shooting 
+  linenumber: 19
+  description: '2 career weak foot volleys - score a total of 2 volleys in your career with your weaker foot'
+  skill: Volleys
+  skillamount: 3
+  otherreward: ''
+311:
+  section: Shooting 
+  linenumber: 20
+  description: 'Free kick in consecutive games - score a goal from a free kick in consecutive matches'
+  skill: FKAccuracy
+  skillamount: 3
+  otherreward: ''
+312:
+  section: Shooting 
+  linenumber: 21
+  description: '5 headed goals - claim 5 goals from headers during the course of your career'
+  skill: Heading
+  skillamount: 2
+  otherreward: ''
+313:
+  section: Shooting 
+  linenumber: 22
+  description: 'Score 10 with finesse - Get credited for 10 goals from finesse shots in your career'
+  skill: Finishing
+  skillamount: 2
+  otherreward: ''
+314:
+  section: Shooting 
+  linenumber: 23
+  description: 'Curl in 5 from outside - score 5 finesse shots from outside the box in your career'
+  skill: LongShots
+  skillamount: 2
+  otherreward: ''
+315:
+  section: Shooting 
+  linenumber: 24
+  description: 'Bang in 10 from distance - claim 10 goals from laces shots outside the penalty box'
+  skill: ShotPower
+  skillamount: 2
+  otherreward: ''
+316:
+  section: Shooting 
+  linenumber: 25
+  description: '15 from outside the box - score a total of 15 goals from outside the penalty box in your career'
+  skill: LongShots
+  skillamount: 2
+  otherreward: ''
+317:
+  section: Shooting 
+  linenumber: 26
+  description: 'Score 15 headers - get credited for 15 goals from headers of any type'
+  skill: Heading
+  skillamount: 2
+  otherreward: ''
+318:
+  section: Shooting 
+  linenumber: 27
+  description: '10 weak foot goals - score 10 goals with your weaker foot during your career'
+  skill: Finishing
+  skillamount: 2
+  otherreward: ''
+319:
+  section: Shooting 
+  linenumber: 28
+  description: 'Volley in 10 - get credited for 10 goals from volleys in your career'
+  skill: Volleys
+  skillamount: 3
+  otherreward: ''
+320:
+  section: Shooting 
+  linenumber: 29
+  description: '5 career penalties - score a total of 5 goals from penalties in your career'
+  skill: Penalties
+  skillamount: 3
+  otherreward: ''
+321:
+  section: Shooting 
+  linenumber: 30
+  description: '10 free kicks scored - get credited for 10 career goals from free kicks in your career'
+  skill: FKAccuracy
+  skillamount: 4
+  otherreward: ''
+322:
+  section: Shooting 
+  linenumber: 31
+  description: 'Chip from close 5 times - score a total of 5 goals from chip shots inside the penalty box'
+  skill: Finishing
+  skillamount: 3
+  otherreward: ''
+323:
+  section: Shooting 
+  linenumber: 32
+  description: '30 goals from distance - claim 30 goals in your career from outside the box'
+  skill: ShotPower
+  skillamount: 3
+  otherreward: ''
+324:
+  section: Shooting 
+  linenumber: 33
+  description: 'Curl in 15 from range - score 15 finesse shots from outside the box in your career'
+  skill: LongShots
+  skillamount: 3
+  otherreward: ''
+325:
+  section: Shooting 
+  linenumber: 34
+  description: '30 headed goals - claim 30 goals from headers during the course of your career'
+  skill: Heading
+  skillamount: 3
+  otherreward: ''
+326:
+  section: Shooting 
+  linenumber: 35
+  description: 'Claim 40 from distance - score a total of 40 goals from outside the penalty box in your career'
+  skill: ShotPower
+  skillamount: 3
+  otherreward: ''
+327:
+  section: Shooting 
+  linenumber: 36
+  description: '15 career penalties - score a total of 15 goals from penalties in your career'
+  skill: Penalties
+  skillamount: 4
+  otherreward: ''
+328:
+  section: Shooting 
+  linenumber: 37
+  description: 'Score 20 free kicks - get credited for 20 career goals from free kicks in your career'
+  skill: FKAccuracy
+  skillamount: 4
+  otherreward: ''
+329:
+  section: Shooting 
+  linenumber: 38
+  description: '25 volleys scored - get credited for 25 goals from volleys in your career'
+  skill: Volleys
+  skillamount: 4
+  otherreward: ''
+330:
+  section: Shooting 
+  linenumber: 39
+  description: 'Head home 40 goals - claim 40 goals from headers during the course of your career'
+  skill: Heading
+  skillamount: 4
+  otherreward: ''
+331:
+  section: Shooting 
+  linenumber: 40
+  description: 'Finesse in 50 - get credited for 50 goals from finesse shots in your career'
+  skill: Finishing
+  skillamount: 3
+  otherreward: ''
+332:
+  section: Shooting 
+  linenumber: 41
+  description: 'Keep your cool in a shoot-out - score a goal in a penalty shoot-out with your Pro'
+  skill: Penalties
+  skillamount: 4
+  otherreward: ''
+333:
+  section: Shooting 
+  linenumber: 42
+  description: 'Consecutive driven free kicks - score with a driven free kick in consecutive matches'
+  skill: FKAccuracy
+  skillamount: 4
+  otherreward: ''
+334:
+  section: Shooting 
+  linenumber: 43
+  description: 'Score 2 from range back to back - score 2 goals from outside the box in consecutive matches'
+  skill: ShotPower
+  skillamount: 2
+  otherreward: ''
+335:
+  section: Shooting 
+  linenumber: 44
+  description: 'Chip the keeper from range twice - claim 2 goals from outside the box using a chip shot'
+  skill: LongShots
+  skillamount: 2
+  otherreward: ''
+336:
+  section: Shooting 
+  linenumber: 45
+  description: 'Finesse Hat Trick - score a hat trick  in a match with finesse shots'
+  skill: Finishing
+  skillamount: 2
+  otherreward: ''
+337:
+  section: Shooting 
+  linenumber: 46
+  description: 'Volley from outside - score a volley from outside the box in any match'
+  skill: Volleys
+  skillamount: 4
+  otherreward: ''
+338:
+  section: Shooting 
+  linenumber: 47
+  description: 'Score a diving header - get credited for a goal scored with a diving header'
+  skill: Heading
+  skillamount: 3
+  otherreward: ''
+339:
+  section: Shooting 
+  linenumber: 48
+  description: '2 from 32 yards or further - score 2 goals from 32 yards or further in a match'
+  skill: LongShots
+  skillamount: 3
+  otherreward: ''
+340:
+  section: Shooting 
+  linenumber: 49
+  description: 'Hat trick from outside - get credited for 3 goals from outside the box in a single match'
+  skill: ShotPower
+  skillamount: 3
+  otherreward: ''
+341:
+  section: Shooting 
+  linenumber: 50
+  description: 'Back to back hat tricks - score a hat trick  in consecutive matches'
+  skill: Finishing
+  skillamount: 2
+  otherreward: ''
+342:
+  section: The Arena 
+  linenumber: 1
+  description: 'Finish with some finesse - score a goal using the finesse shot inside the penalty box'
+  skill: Finishing
+  skillamount: 1
+  otherreward: ''
+343:
+  section: The Arena 
+  linenumber: 2
+  description: 'Bury it with the laces - score a goal using the laces shot inside the penalty box'
+  skill: ShotPower
+  skillamount: 1
+  otherreward: ''
+344:
+  section: The Arena 
+  linenumber: 3
+  description: 'Tuck home a penalty - keep your composure to score from a penalty kick'
+  skill: Penalties
+  skillamount: 1
+  otherreward: ''
+345:
+  section: The Arena 
+  linenumber: 4
+  description: 'Juggle the ball 5 times - juggle the ball while standing'
+  skill: 
+  skillamount: 
+  otherreward: '2 Star Skill Moves'
+346:
+  section: The Arena 
+  linenumber: 5
+  description: 'Drill one in from outside the box - score with a laces shot from outside the penalty box'
+  skill: LongShots
+  skillamount: 1
+  otherreward: ''
+347:
+  section: The Arena 
+  linenumber: 6
+  description: 'Score with my weaker foot - score with your weak foot from any distance'
+  skill: Balance
+  skillamount: 1
+  otherreward: ''
+348:
+  section: The Arena 
+  linenumber: 7
+  description: 'Curl one in from 18 yards - score a finesse shot from outside the penalty box'
+  skill: Curve
+  skillamount: 1
+  otherreward: ''
+349:
+  section: The Arena 
+  linenumber: 8
+  description: 'Try 3 of the skill moves - perform at least three of the nine 2-star skill moves'
+  skill: 
+  skillamount: 
+  otherreward: '3 Star Skill Moves'
+350:
+  section: The Arena 
+  linenumber: 9
+  description: 'Catch the ball  - catch the ball while playing as the goalkeeper'
+  skill: GKHandling
+  skillamount: 1
+  otherreward: ''
+351:
+  section: The Arena 
+  linenumber: 10
+  description: 'Make a diving save  - make a diving save while playing as the goalkeeper'
+  skill: GKDiving
+  skillamount: 1
+  otherreward: ''
+352:
+  section: The Arena 
+  linenumber: 11
+  description: 'Bend in a free kick - shoot and score with a standard free kick from any distance'
+  skill: FKAccuracy
+  skillamount: 1
+  otherreward: ''
+353:
+  section: The Arena 
+  linenumber: 12
+  description: 'Practice 6 skill moves - perform at least six of the nine 2-star skill moves'
+  skill: BallControl
+  skillamount: 1
+  otherreward: ''
+354:
+  section: The Arena 
+  linenumber: 13
+  description: 'Score back off the post - score a goal directly following a rebound off the post'
+  skill: Reactions
+  skillamount: 1
+  otherreward: ''
+355:
+  section: The Arena 
+  linenumber: 14
+  description: 'Check out the fake shot - perform the fake shot when inside the penalty box'
+  skill: Agility
+  skillamount: 1
+  otherreward: ''
+356:
+  section: The Arena 
+  linenumber: 15
+  description: 'Test out two 3-star skills - perform at least two of the six 3-star skill moves'
+  skill: 
+  skillamount: 
+  otherreward: '4 Star Skill Moves'
+357:
+  section: The Arena 
+  linenumber: 16
+  description: 'Chip the keeper from out the box - score with a chip shot from outside the penalty box'
+  skill: Vision
+  skillamount: 1
+  otherreward: ''
+358:
+  section: The Arena 
+  linenumber: 17
+  description: 'Score a volley in the area - score with a volley from inside the penalty box'
+  skill: Volleys
+  skillamount: 1
+  otherreward: ''
+359:
+  section: The Arena 
+  linenumber: 18
+  description: 'Dribble around a player - dribble past an opposition player or the goalkeeper'
+  skill: Balance
+  skillamount: 1
+  otherreward: ''
+360:
+  section: The Arena 
+  linenumber: 19
+  description: 'Save a one-on-one  - make a 1-on-1 save while playing as the goalkeeper'
+  skill: GKDiving
+  skillamount: 1
+  otherreward: ''
+361:
+  section: The Arena 
+  linenumber: 20
+  description: 'Keep out a penalty  - save a penalty while playing as the goalkeeper'
+  skill: GKReflexes
+  skillamount: 1
+  otherreward: ''
+362:
+  section: The Arena 
+  linenumber: 21
+  description: 'Score from 32 yards or further - score any type of goal from 32 yards out or further'
+  skill: LongShots
+  skillamount: 1
+  otherreward: ''
+363:
+  section: The Arena 
+  linenumber: 22
+  description: 'Try four 3-star skill moves - perform at least four of the six 3-star skill moves'
+  skill: Stamina
+  skillamount: 1
+  otherreward: ''
+364:
+  section: The Arena 
+  linenumber: 23
+  description: '5 free kicks scored - score at least 5 goals from free kicks with your Virtual Pro'
+  skill: FKAccuracy
+  skillamount: 1
+  otherreward: ''
+365:
+  section: The Arena 
+  linenumber: 24
+  description: 'Beat a player with skill - dribble past an opposition player or goalkeeper using any skill move'
+  skill: Agility
+  skillamount: 1
+  otherreward: ''
+366:
+  section: The Arena 
+  linenumber: 25
+  description: 'Weak foot from range - score with your weaker foot from outside the penalty box'
+  skill: WeakFootAbility
+  skillamount: 1
+  otherreward: ''
+367:
+  section: The Arena 
+  linenumber: 26
+  description: 'Tuck in 10 penalties - score at least 10 goals when practising your penalty kicks'
+  skill: Penalties
+  skillamount: 3
+  otherreward: ''
+368:
+  section: The Arena 
+  linenumber: 27
+  description: 'Practice five 4-star skills - perform at least five of the various 4-star skill moves'
+  skill: 
+  skillamount: 
+  otherreward: '5 Star Skill Moves'
+369:
+  section: The Arena 
+  linenumber: 28
+  description: 'Score a volley from distance - score with a volley from outside the penalty box'
+  skill: Volleys
+  skillamount: 2
+  otherreward: ''
+370:
+  section: The Arena 
+  linenumber: 29
+  description: 'Make a double save  - make a double save while playing as the goalkeeper'
+  skill: GKReflexes
+  skillamount: 1
+  otherreward: ''
+371:
+  section: The Arena 
+  linenumber: 30
+  description: 'Save 5 penalties  - save 5 penalties while playing as the goalkeeper'
+  skill: GKPositioning
+  skillamount: 1
+  otherreward: ''
+372:
+  section: Traits & Celebrations 
+  linenumber: 1
+  description: 'Shooting 5 - complete 5 of the 50 Shooting Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'New Celebrations 1'
+373:
+  section: Traits & Celebrations 
+  linenumber: 2
+  description: 'Physical 5 - complete 5 of the 50 Physical Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Long Throw Triat'
+374:
+  section: Traits & Celebrations 
+  linenumber: 3
+  description: 'Mental 5 - complete 5 of the 30 Mental Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'New Celebrations 2'
+375:
+  section: Traits & Celebrations 
+  linenumber: 4
+  description: 'Passing 10 - complete 10 of the 50 Passing Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Early Cross Trait'
+376:
+  section: Traits & Celebrations 
+  linenumber: 5
+  description: 'Shooting 10 - complete 10 of the 50 Shooting Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'New Celebrations 3'
+377:
+  section: Traits & Celebrations 
+  linenumber: 6
+  description: 'Ball Skills 10 - complete 10 of the 30 Ball Skills Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Skilled Dribbling Trait'
+378:
+  section: Traits & Celebrations 
+  linenumber: 7
+  description: 'Defence 10 - complete 10 of the 50 Defence Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'New Celebrations 4'
+379:
+  section: Traits & Celebrations 
+  linenumber: 8
+  description: 'Shooting 15 - complete 15 of the 50 Shooting Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Finesse Shot Trait'
+380:
+  section: Traits & Celebrations 
+  linenumber: 9
+  description: 'Physical 15 - complete 15 of the 50 Physical Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'New Celebrations 5'
+381:
+  section: Traits & Celebrations 
+  linenumber: 10
+  description: 'Goalkeeper 5 - complete 5 of the 50 Goalkeeper Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'GK Long Throw Trait'
+382:
+  section: Traits & Celebrations 
+  linenumber: 11
+  description: 'Total completion 8% - complete 8% of the 400 Virtual Pro accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'New Celebrations 6'
+383:
+  section: Traits & Celebrations 
+  linenumber: 12
+  description: 'Ball Skills 15 - complete 15 of the 30 Ball Skills Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Outside Foot Shot Trait'
+384:
+  section: Traits & Celebrations 
+  linenumber: 13
+  description: 'Shooting 20 - complete 20 of the 50 Shooting Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Penalty Stutter Trait'
+385:
+  section: Traits & Celebrations 
+  linenumber: 14
+  description: 'Total completion 10% - complete 10% of the 400 Virtual Pro accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'New Celebrations 7'
+386:
+  section: Traits & Celebrations 
+  linenumber: 15
+  description: 'Goalkeeper 15 - complete 15 of the 50 Goalkeeper Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'GK Flat Kick Trait'
+387:
+  section: Traits & Celebrations 
+  linenumber: 16
+  description: 'Shooting 25 - complete 25 of the 50 Shooting Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Diving Header Trait'
+388:
+  section: Traits & Celebrations 
+  linenumber: 17
+  description: 'Total completion 15% - complete 15% of the 400 Virtual Pro accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'New Celebrations 8'
+389:
+  section: Traits & Celebrations 
+  linenumber: 18
+  description: 'Defence 20 - complete 20 of the 50 Defence Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Acrobatic Clearance Trait'
+390:
+  section: Traits & Celebrations 
+  linenumber: 19
+  description: 'Passing 25 - complete 25 of the 50 Passing Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Driven Pass Trait'
+391:
+  section: Traits & Celebrations 
+  linenumber: 20
+  description: 'Physical 30 - complete 30 of the 50 Physical Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Second Wind Trait'
+392:
+  section: Traits & Celebrations 
+  linenumber: 21
+  description: 'Total completion 20% - complete 20% of the 400 Virtual Pro accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'New Celebrations 9'
+393:
+  section: Traits & Celebrations 
+  linenumber: 22
+  description: 'Ball Skills 25 - complete 25 of the 30 Ball Skills Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Swerve Pass Trait'
+394:
+  section: Traits & Celebrations 
+  linenumber: 23
+  description: 'Defence 30 - complete 30 of the 50 Defence Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Power Header Trait'
+395:
+  section: Traits & Celebrations 
+  linenumber: 24
+  description: 'Shooting 35 - complete 35 of the 50 Shooting Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Power Free-Kick Trait'
+396:
+  section: Traits & Celebrations 
+  linenumber: 25
+  description: 'Total completion 25% - complete 25% of the 400 Virtual Pro accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'New Celebrations 10'
+397:
+  section: Traits & Celebrations 
+  linenumber: 26
+  description: 'Passing 35 - complete 35 of the 50 Passing Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Fancy Passes Trait'
+398:
+  section: Traits & Celebrations 
+  linenumber: 27
+  description: 'Physical 35 - complete 35 of the 50 Physical Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Bicycle Kick Trait'
+399:
+  section: Traits & Celebrations 
+  linenumber: 28
+  description: 'Goalkeeper 40 - complete 40 of the 50 Goalkeeper Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'GK Up For Corners'
+400:
+  section: Traits & Celebrations 
+  linenumber: 29
+  description: 'Passing 40 - complete 40 of the 50 Passing Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Fancy Flicks Trait'
+401:
+  section: Traits & Celebrations 
+  linenumber: 30
+  description: 'Physical 40 - complete 40 of the 50 Physical Accomplishments'
+  skill: 
+  skillamount: 
+  otherreward: 'Giant Throw Trait'

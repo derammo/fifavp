@@ -1,0 +1,16 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+one:
+  name: one
+  description: test case 1
+two:
+  name: two
+  description: test case 2
+HeightWeight:
+  name: HeightWeight
+  description: value determined by height and weight of the virtual pro
+Role:
+  name: Role
+  description: value determined by role assigned to the pro
+Constant:
+  name: Constant
+  description: value is constant (same base value for all virtual pros)

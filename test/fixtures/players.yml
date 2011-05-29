@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+one:
+  name: one
+  description: test case 1
+  owner: GinTonicLime
+two:
+  name: two
+  description: test case 2
+  owner: GinTonicLime
+GinTonicLime:
+  name: GinTonicLime
+  description: Awesome
+  owner: GinTonicLime

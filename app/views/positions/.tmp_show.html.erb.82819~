@@ -1,0 +1,163 @@
+<p id="notice">
+    <%= notice %>
+</p>
+<p>
+    <b>Position:</b>
+    <%=h @position.name %>
+</p>
+<%if @position.description %>
+<p>
+    <b>Description:</b>
+    <%=h @position.description %>
+</p>
+<%end %>
+<table class='internal'>
+    <tr class='internal'>
+        <td class='internal'>
+            <p>
+                <b>Skill Coefficients:</b>
+            </p>
+            <table>
+                <%for relevant in @sortedvalues %>
+                <tr>
+                    <td>
+                        <%=h relevant.skill.name %>
+                    </td>
+                    <td class='numeric'>
+                        <%=h relevant.coefficient %>%
+                    </td>
+                </tr>
+                <%end %>
+            </table>
+        </td>
+        <%if @heightweights.count > 0 %>
+        <td class='internal' width='100px'/>
+        <td class='internal'>
+            <p>
+                <b>Choose a Height/Weight:</b>
+            </p>
+            <table>
+                <%for heightweight in @heightweights %>
+                <tr>
+                    <td class='internal'>
+                        <%=h link_to heightweight.name, position_path(
+                        :id=>@position.id,
+                        :role=>params[:role],
+                        :player=>params[:player],
+                        :heightweight=>heightweight.id) %>
+                    </td>
+                    <td class='internal'>
+                        <%=h heightweight.description %>
+                    </td>
+                </tr>
+                <%end %>
+            </table>
+        </td>
+		<%end%>
+        <%if @players%>
+        <td class='internal' width='100px'/>
+        <td class='internal'>
+            <p>
+                <b>Choose a Player:</b>
+            </p>
+            <table>
+                <%for player in @players %>
+                <tr>
+                    <td class='internal'>
+                    	<%=h link_to (player.name.empty? ? player.id : player.name), position_path(
+                        :id=>@position.id,
+                        :role=>params[:role],
+                        :player=>player.id,
+                        :heightweight=>params[:heightweight]) %>
+                    </td>
+                    <td class='internal'>
+                        <%=h player.description %>
+                    </td>
+                </tr>
+                <%end %>
+            </table>
+        </td>
+        <%end %>
+    </tr>
+</table>
+<%if @role %>
+<p>
+    <b>Virtual Pro Configuration:</b>
+    <%=h @role.name %><%if @heightweight %>&nbsp;<%=h @heightweight.name %><%end %><%if @player %>&nbsp;("<%=h @player.name %>")<%end %>
+</p>
+<p>
+    <b>Overall Rating :</b>
+    <b><%=h @rating %>&nbsp;/&nbsp;99</b>
+</p>
+<table>
+    <tr>
+        <th>
+            Skill
+        </th>
+        <th class='internal'>
+            Points
+        </th>
+        <th class='internal'>
+            &nbsp;/
+        </th>
+        <th class='internal'>
+            &nbsp;Max
+        </th>
+        <%if @improvements.count > 0 %>
+        <th>
+            Accomplishments that will improve this skill
+        </th>
+        <%end %>
+    </tr>
+    <%for relevant in @sortedvalues %>
+    <tr>
+        <td>
+            <%=h relevant.skill.name %>
+        </td>
+        <td class='internal numeric'>
+            <%if @possiblepoints[relevant.skill_id] - @skillpoints[relevant.skill_id] > 99 %>
+            <b><%=h @skillpoints[relevant.skill_id] %></b>
+            <%else %>
+            <%=h @skillpoints[relevant.skill_id] %>
+            <%end %>
+        </td>
+        <td class='internal'>
+            &nbsp;/
+        </td>
+        <td class='internal numeric'>
+            <%=h @possiblepoints[relevant.skill_id] %>
+        </td>
+        <%if @improvements.count > 0 %>
+        <td>
+            <%if @improvements[relevant.skill_id] %>
+            <table class='internal'>
+                <%for improvement in  @improvements[relevant.skill_id] %>
+                <tr class='internal'>
+                    <td class='internal'>
+                        +<%=h relevant.coefficient * improvement.skillamount %>
+                    </td>
+                    <td class='internal'>
+						from
+                    </td>
+                    <td class='internal'>
+                        <%=h improvement.section %>
+                    </td>
+                    <td class='internal numeric'>
+                        <%=h improvement.linenumber %>:
+                    </td>
+                    <td class='internal'>
+                        <%=h improvement.description %>
+                    </td>
+                </tr>
+                <%end %>
+            </table>
+            <%end %>
+        </td>
+        <%end %>
+    </tr>
+    <%end %>
+</table>
+<%end %>
+<p/><%if current_user && current_user.admin? %>
+<%= link_to 'Edit', edit_position_path(@position) %>|<%end %>
+<%= link_to 'Back', positions_path %>

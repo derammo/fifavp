@@ -1,0 +1,82 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+one:
+  name: one
+  source: one
+two:
+  name: two
+  source: two
+Acceleration:
+  name: Acceleration    
+  source: HeightWeight
+Aggression:
+  name:      Aggression      
+  source: Role
+Agility:
+  name: Agility 
+  source: HeightWeight
+BallControl:
+  name: Ball Control    
+  source: Role
+Crossing:
+  name:        Crossing        
+  source: Role
+Dribbling:
+  name: Dribbling       
+  source: Role
+Finishing: 
+  name: Finishing
+  source:   Role
+Heading:
+  name: Heading 
+  source: Role
+Jumping:
+  name: Jumping 
+  source: HeightWeight
+LongPassing:
+  name: Long Passing    
+  source: Role
+LongShots:
+  name: Long Shots
+  source:      Role
+Marking:
+  name: Marking 
+  source: Role
+Positioning:
+  name:     Positioning     
+  source: Role
+Reactions      :
+  name: Reactions
+  source:       Constant
+ShortPassing:
+  name: Short Passing 
+  source:  Role
+ShotPower:
+  name: Shot Power  
+  source:    Role
+SlidingTackle:
+  name: Sliding Tackle
+  source:  Role
+SprintSpeed:
+  name: Sprint Speed
+  source:    HeightWeight
+Stamina:
+  name: Stamina 
+  source: HeightWeight
+StandingTackle:
+  name: Standing Tackle 
+  source: Role
+Strength:
+  name:  Strength
+  source: HeightWeight
+TacticalAwareness:
+  name: Tactical Awareness
+  source: Role
+Vision:
+  name:  Vision
+  source:  Role
+Volleys:
+  name: Volleys 
+  source: Role
+WeakFootAbility:
+  name: Weak Foot Ability 
+  source: Constant

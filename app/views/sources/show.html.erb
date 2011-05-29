@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%=h @source.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @source.description %>
+</p>
+
+<p>
+  <b>Skills:</b>
+</p>
+<ul>
+<%for skill in @source.skills %>
+  <li><%=h skill.name%></li>
+<%end%>
+</ul>
+
+
+<%= link_to 'Edit', edit_source_path(@source) %> |
+<%= link_to 'Back', sources_path %>

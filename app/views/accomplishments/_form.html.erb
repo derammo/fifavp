@@ -1,0 +1,41 @@
+<%= form_for(@accomplishment) do |f| %>
+  <% if @accomplishment.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@accomplishment.errors.count, "error") %> prohibited this accomplishment from being saved:</h2>
+
+      <ul>
+      <% @accomplishment.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :section %><br />
+    <%= f.text_field :section %>
+  </div>
+  <div class="field">
+    <%= f.label :linenumber %><br />
+    <%= f.text_field :linenumber %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_field :description %>
+  </div>
+  <div class="field">
+    <%= f.label :skill_id %><br />
+    <%= f.text_field :skill_id %>
+  </div>
+  <div class="field">
+    <%= f.label :skillamount %><br />
+    <%= f.text_field :skillamount %>
+  </div>
+  <div class="field">
+    <%= f.label :otherreward %><br />
+    <%= f.text_field :otherreward %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

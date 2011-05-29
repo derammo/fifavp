@@ -1,0 +1,31 @@
+<h1>Listing heightweights</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Weight</th>
+    <th class='internal'></th>
+	<%if current_user && current_user.admin? %>
+	    <th class='internal'></th>
+	    <th class='internal'></th>
+	<%end%>
+  </tr>
+
+<% @heightweights.each do |heightweight| %>
+  <tr>
+    <td><%=h heightweight.name %></td>
+    <td><%=h heightweight.description %></td>
+    <td class='numeric'><%=h heightweight.weight %></td>
+    <td class='internal'><%=link_to 'Show', heightweight %></td>
+    <%if current_user && current_user.admin? %>
+		<td class='internal'><%=link_to 'Edit', edit_heightweight_path(heightweight) %></td>
+    	<td class='internal'><%=link_to 'Destroy', heightweight, :confirm => 'Are you sure?', :method => :delete %></td>
+	<%end%>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Heightweight', new_heightweight_path %>

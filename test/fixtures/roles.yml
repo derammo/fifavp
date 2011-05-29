@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+one:
+  name: one
+two:
+  name: two
+RMW:
+  name: Left or Right Midfield, Winger
+RMB:
+  name: Left or Right Midfield, Box-to-box
+RFC:
+  name: Left or Right Forward, Creator
+CFF:
+  name: Center Forward, Finisher
+CDS:
+  name: Center Defender, Stopper

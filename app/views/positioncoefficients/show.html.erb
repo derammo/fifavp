@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Position:</b>
+  <%=h @positioncoefficient.position_id %>
+</p>
+
+<p>
+  <b>Skill:</b>
+  <%=h @positioncoefficient.skill_id %>
+</p>
+
+<p>
+  <b>Coefficient:</b>
+  <%=h @positioncoefficient.coefficient %>
+</p>
+
+
+<%= link_to 'Edit', edit_positioncoefficient_path(@positioncoefficient) %> |
+<%= link_to 'Back', positioncoefficients_path %>

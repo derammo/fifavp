@@ -1,0 +1,29 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+one:
+  name: one
+two:
+  name: two
+RW:
+  name: LW,RW
+RAM:
+  name: LAM,CAM,RAM
+RM:
+  name: LM,RM
+RCB:
+  name: RCB,LCB
+RS:
+  name: LS,ST,RS
+SW:
+  name: SW
+RB:
+  name: LB,RB
+RWB:
+  name: LWB,RWB 
+RDM:
+  name: LDM,CDM,RDM
+RCM:
+  name: LCM,CM,RCM
+GK:
+  name: GK
+RF:
+  name: LF,RF

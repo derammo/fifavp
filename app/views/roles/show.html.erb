@@ -1,0 +1,50 @@
+<p id="notice">
+    <%= notice %>
+</p>
+<p>
+    <b>Name:</b>
+    <%=h @role.name %>
+</p>
+<p>
+    <b>Description:</b>
+    <%=h @role.description %>
+</p>
+<p>
+    <b>Skill Base Values:</b>
+</p>
+<table>
+    <%for base in @sortedvalues %>
+    <tr>
+        <td>
+            <%=h base.skill.name %>
+        </td>
+        <td>
+            <%=h base.value %>
+        </td>
+    </tr>
+    <%end %>
+</table>
+<p>
+    <b>Assignments:</b>
+</p>
+<table>
+    <%for assignment in @sortedassignments %>
+    <tr>
+        <td>
+            <%=h link_to assignment.position.name, position_path(
+            :id=>assignment.position.id,
+            :role=>@role.id,
+            :player=>params[:player],
+            :heightweight=>params[:heightweight]) %>
+        </td>
+        <td>
+            <%=h assignment.description %>
+        </td>
+    </tr>
+    <%end %>
+</table>
+<p/>
+<%if current_user && current_user.admin? %>
+<%= link_to 'Edit', edit_role_path(@role) %> |
+<%end %>
+<%= link_to 'Back', roles_path %>

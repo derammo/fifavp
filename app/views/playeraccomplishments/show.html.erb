@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Player:</b>
+  <%=h @playeraccomplishment.player_id %>
+</p>
+
+<p>
+  <b>Accomplishment:</b>
+  <%=h @playeraccomplishment.accomplishment_id %>
+</p>
+
+<p>
+  <b>Achieved:</b>
+  <%=h @playeraccomplishment.achieved %>
+</p>
+
+<p>
+  <b>When:</b>
+  <%=h @playeraccomplishment.when %>
+</p>
+
+
+<%= link_to 'Edit', edit_playeraccomplishment_path(@playeraccomplishment) %> |
+<%= link_to 'Back', playeraccomplishments_path %>
