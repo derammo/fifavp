@@ -17,6 +17,9 @@
             <p>
                 <b>Skill Coefficients:</b>
             </p>
+            <p>
+            	These values show how important each skill is towards the overall rating of the vitual pro in this position.
+            </p>
             <table>
                 <%for relevant in @sortedvalues %>
                 <tr>
@@ -36,6 +39,9 @@
             <p>
                 <b>Choose a Height/Weight:</b>
             </p>
+            <p>
+            	Since some skill values are determined based on height and weight, you should choose one of the values here to allow the page to display those skills correctly.  
+            </p>
             <table>
                 <%for heightweight in @heightweights %>
                 <tr>
@@ -47,18 +53,28 @@
                         :heightweight=>heightweight.id) %>
                     </td>
                     <td class='internal'>
+                        <%=h heightweight.weight %> lbs
+                    </td>
+                    <td class='internal'>
                         <%=h heightweight.description %>
                     </td>
                 </tr>
                 <%end %>
             </table>
         </td>
-		<%end%>
-        <%if @players%>
+		<%end%> 
+		<%if @players%>
         <td class='internal' width='100px'/>
         <td class='internal'>
             <p>
                 <b>Choose a Player:</b>
+            </p>
+            <p>
+        		<%if @players.count > 1%>
+				Please choose a player from your list of players, so that the correct set of accomplishments is used.  Choosing a player also changes the URL to include your player selection, so that you can share a link to your complete configuration with other users.  
+            	<%else%>
+				Choosing a player changes the URL to include your player selection, so that you can share a link to your complete configuration with other users.
+				<%end%>
             </p>
             <table>
                 <%for player in @players %>
@@ -83,11 +99,14 @@
 <%if @role %>
 <p>
     <b>Virtual Pro Configuration:</b>
-    <%=h @role.name %><%if @heightweight %>&nbsp;<%=h @heightweight.name %><%end %><%if @player %>&nbsp;("<%=h @player.name %>")<%end %>
+    <%=h @role.name %><%if @heightweight %>&nbsp;<%=h @heightweight.name %><%end %><%if @player %>&nbsp;(player "<%=h @player.name %>")<%end %>
 </p>
 <p>
     <b>Overall Rating :</b>
     <b><%=h @rating %>&nbsp;/&nbsp;99</b>
+</p
+<p>
+	If you input all the information for your virtual pro, the above number will match the overall rating displayed in the game.  The table below shows how many points your virtual pro receives in each relevant skill.  Each value is shown out of a total that would give the theoretical rating of 99, which is not achievable in the current version of the game.  Values that are 100 points short of the maximum are shown in bold.  These are skills you may want to improve.  For each relevant skill, accomplishments are shown (if you have input a player) that you can still use to improve this skill. 
 </p>
 <table>
     <tr>

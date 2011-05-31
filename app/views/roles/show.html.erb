@@ -7,10 +7,17 @@
 </p>
 <p>
     <b>Description:</b>
+    <%if @role.description %>
     <%=h @role.description %>
+	<%else%>
+	[no description provided]
+	<%end%>
 </p>
 <p>
     <b>Skill Base Values:</b>
+</p>
+<p>
+These are all the skills that depend on the role chosen.  Other skills are depending on the height/weight of the virtual pro, and yet others are constant values that are the same for all virtual pros.  The values shown here are the skill values your virtual pro will have if you have achieved no accomplishments, for example if you just created a new virtual pro. 
 </p>
 <table>
     <%for base in @sortedvalues %>
@@ -26,6 +33,9 @@
 </table>
 <p>
     <b>Assignments:</b>
+</p>
+<p>
+These are the positions (on the field) for which this role is appropriate.  You can choose one of these positions to see how how your virtual pro performs in that position. 
 </p>
 <table>
     <%for assignment in @sortedassignments %>

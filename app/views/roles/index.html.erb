@@ -1,5 +1,7 @@
-<h1>Listing roles</h1>
-
+<h1>Virtual Pro Roles</h1>
+<p>
+These are the different configurations that you can choose for your virtual pro.  Each gives your virtual pro a set of base skill values, which can then be further improved by achieving accomplishments.
+</p>
 <table>
   <tr>
     <th>Name</th>
@@ -24,4 +26,6 @@
 
 <br />
 
+<%if current_user.admin?%>
 <%= link_to 'New Role', new_role_path %>
+<%end%>

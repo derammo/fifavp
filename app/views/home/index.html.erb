@@ -4,11 +4,21 @@
     <strong>You are logged in as <%=h current_user.login %></strong>
 </p>
 <p>
+	<% if @playerexists %>
+	In order to being experimenting with different virtual pro configurations, please <%= link_to 'select one of the roles', roles_path%>.  
+	<%else%>
+	In order to input the accomplishments you have already achieved, please <%= link_to 'create a player', new_player_path%>.  If you are just looking at base values or viewing a link to someone else's player model, you don't need to do this step.
+	<%end%>
+</p>
+<p>
     <%= link_to 'Logout', logout_path %>
 </p>
 <% else %>
 <p>
     <strong>You are currently not logged in.</strong>
+</p>
+<p>
+	In order to create a player and experiment, please create a login for yourself by  <%= link_to 'signing up', signup_path%>.
 </p>
 <p>
     <%= link_to 'Login', login_path %> or <%= link_to 'Sign Up', signup_path %>
