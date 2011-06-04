@@ -968,10 +968,10 @@ two:
 139:
   section: Kit & Appearance 
   linenumber: 8
-  description: 'Get your revenge twice - twice in your career'
-  skill:  tackle an opponent that has previously fouled you
+  description: 'Get your revenge twice - twice in your career tackle an opponent that has previously fouled you'
+  skill:
   skillamount: 
-  otherreward: ''
+  otherreward: 'High Sock Length'
 140:
   section: Kit & Appearance 
   linenumber: 9

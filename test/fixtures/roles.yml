@@ -13,3 +13,7 @@ CFF:
   name: Center Forward, Finisher
 CDS:
   name: Center Defender, Stopper
+GKT:
+  name: Goalkeeper, Traditional
+GKA:
+  name: Goalkeeper, Acrobatic

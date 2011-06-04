@@ -80,3 +80,30 @@ Volleys:
 WeakFootAbility:
   name: Weak Foot Ability 
   source: Constant
+GKDiving:
+  name: GK Diving
+  source: Role
+GKPositioning:
+  name: GK Positioning
+  source: Role
+GKReflexes:
+  name: GK Reflexes
+  source: Role
+GKHandling:
+  name: GK Handling
+  source: Role
+GKKicking:
+  name: GK Kicking
+  source: Role
+Curve:
+  name: Curve
+  source: Role
+FKAccuracy:
+  name: Free Kick Accuracy
+  source: Role
+Penalties:
+  name: Penalties
+  source: Role
+Balance:
+  name: Balance
+  source: HeightWeight

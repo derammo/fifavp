@@ -571,3 +571,31 @@ two:
   position: RF
   skill: Volleys
   coefficient: 4
+289:
+  position: GK
+  skill: GKDiving
+  coefficient: 24
+290:
+  position: GK
+  skill: GKPositioning
+  coefficient: 24
+291:
+  position: GK
+  skill: GKReflexes
+  coefficient: 24
+292:
+  position: GK
+  skill: GKHandling
+  coefficient: 16
+293:
+  position: GK
+  skill: GKKicking
+  coefficient: 6
+294:
+  position: GK
+  skill: Jumping
+  coefficient: 3
+295:
+  position: GK
+  skill: Reactions
+  coefficient: 3

@@ -38,3 +38,13 @@ two:
     role: RMW
     description: good match for crossing
     suitability: 80
+6:
+    position: GK
+    role: GKT
+    description: only feasible position
+    suitability: 100
+7:
+    position: GK
+    role: GKA
+    description: only feasible position
+    suitability: 100

@@ -347,3 +347,43 @@ two:
   role: CDS
   skill: Volleys
   value: 50
+374:
+  role: GKT
+  skill: GKDiving
+  value: 70
+375:
+  role: GKT
+  skill: GKPositioning
+  value: 70
+376:
+  role: GKT
+  skill: GKReflexes
+  value: 70
+377:
+  role: GKT
+  skill: GKHandling
+  value: 75
+378:
+  role: GKT
+  skill: GKKicking
+  value: 70
+379:
+  role: GKA
+  skill: GKDiving
+  value: 75
+380:
+  role: GKA
+  skill: GKPositioning
+  value: 65
+381:
+  role: GKA
+  skill: GKReflexes
+  value: 75
+382:
+  role: GKA
+  skill: GKHandling
+  value: 65
+383:
+  role: GKA
+  skill: GKKicking
+  value: 65

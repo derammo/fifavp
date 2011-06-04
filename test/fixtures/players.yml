@@ -2,12 +2,12 @@
 one:
   name: one
   description: test case 1
-  owner: GinTonicLime
+  owner: gintoniclime
 two:
   name: two
   description: test case 2
-  owner: GinTonicLime
+  owner: gintoniclime
 GinTonicLime:
   name: GinTonicLime
   description: Awesome
-  owner: GinTonicLime
+  owner: gintoniclime
