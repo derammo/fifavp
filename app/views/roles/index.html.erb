@@ -8,7 +8,7 @@ These are the different configurations that you can choose for your virtual pro.
   <tr class='index internal'>
     <td class='index internal'><%=link_to role.name, role %></td>
     <td class='index internal description'>
-	<%if role.description%>
+	<%if role.description && (role.description.length > 0)%>
     	(<%=h role.description %>)
 	<%end%>
 	</td>

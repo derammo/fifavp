@@ -194,7 +194,8 @@ div.navigation a {
 	height: 24px;
 	text-align: center;
 	color: #444444;
-	padding: 5px 20px 0px 20px;
+	padding: 5px 5px 0px 5px;
+	width: 64px;
 }
 div.navigation a:active {
 	color: #444444;
@@ -210,6 +211,7 @@ div.navigation a:visited {
 }
 div.navigation tr {
 	vertical-align: bottom;
+	min-width: 818;
 }
 div.navigation td {
 	vertical-align: bottom;
