@@ -16,8 +16,7 @@ class RolesController < ApplicationController
   # GET /roles/1.xml
   def show
     @role = Role.find(params[:id])
-    @sortedvalues = @role.rolevalues.sort_by { 
-	|rolevalue| rolevalue.skill.name }
+    @sortedvalues = @role.rolevalues.sort_by {|rolevalue| rolevalue.skill.name }
     @sortedassignments = @role.assignments.sort_by { |a| -a.suitability }
 
     respond_to do |format|
@@ -30,7 +29,15 @@ class RolesController < ApplicationController
   # GET /roles/new.xml
   def new
     @role = Role.new
-
+    
+    # which ID is source 'role'?, will throw if not found
+    roleid = Source.first(:conditions => 'name = "Role"').id
+    
+    # initialize related records
+    for skill in Skill.all(:conditions => ['source_id = ?', roleid], :order => 'skills.name') do
+      @role.rolevalues.build(:skill => skill, :value => 0)
+    end
+    
     respond_to do |format|
       format.html # new.html.erb
       format.xml  { render :xml => @role }
@@ -46,7 +53,7 @@ class RolesController < ApplicationController
   # POST /roles.xml
   def create
     @role = Role.new(params[:role])
-
+    
     respond_to do |format|
       if @role.save
         format.html { redirect_to(@role, :notice => 'Role was successfully created.') }

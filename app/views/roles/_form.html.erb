@@ -1,25 +1,44 @@
 <%= form_for(@role) do |f| %>
-  <% if @role.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@role.errors.count, "error") %> prohibited this role from being saved:</h2>
-
-      <ul>
-      <% @role.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %>
-
-  <div class="field">
-    <%= f.label :name %><br />
+<% if @role.errors.any? %>
+<div id="error_explanation">
+    <h2><%= pluralize(@role.errors.count, "error") %>prohibited this role from being saved:</h2>
+    <ul>
+        <% @role.errors.full_messages.each do |msg| %>
+        <li>
+            <%= msg %>
+        </li>
+        <% end %>
+    </ul>
+</div>
+<% end %>
+<div class="field">
+    <%= f.label :name %>
+    <br/>
     <%= f.text_field :name %>
-  </div>
-  <div class="field">
-    <%= f.label :description %><br />
+</div>
+<div class="field">
+    <%= f.label :description %>
+    <br/>
     <%= f.text_field :description %>
-  </div>
-  <div class="actions">
+</div>
+<p>
+    <b>Skill Base Values:</b>
+</p>
+<table>
+    <%f.fields_for :rolevalues do |rolevalues_form| %>
+    <tr>
+        <td>
+            <%=h rolevalues_form.object.skill.name %>
+            <%= rolevalues_form.hidden_field :skill_id %>
+        </td>
+        <td class='numeric'>
+            <%= rolevalues_form.text_field :value %>
+        </td>
+    </tr>
+    <%end %>
+</table>
+<p></p>
+<div class="actions">
     <%= f.submit %>
-  </div>
+</div>
 <% end %>

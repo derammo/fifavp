@@ -25,7 +25,7 @@ These are all the skills that depend on the role chosen.  Other skills are depen
         <td>
             <%=h base.skill.name %>
         </td>
-        <td>
+        <td class='numeric'>
             <%=h base.value %>
         </td>
     </tr>
@@ -37,24 +37,24 @@ These are all the skills that depend on the role chosen.  Other skills are depen
 <p>
 These are the positions (on the field) for which this role is appropriate.  You can choose one of these positions to see how how your virtual pro performs in that position. 
 </p>
-<table>
+<table class='index'>
     <%for assignment in @sortedassignments %>
-    <tr>
-        <td>
+    <tr class='index'>
+        <td class='internal index'>
             <%=h link_to assignment.position.name, position_path(
             :id=>assignment.position.id,
             :role=>@role.id,
             :player=>params[:player],
             :heightweight=>params[:heightweight]) %>
-        </td>
-        <td>
-            <%=h assignment.description %>
+			<%if assignment.description && (assignment.description.length > 0)%>
+            (<%=h assignment.description %>)
+			<%end%>
         </td>
     </tr>
     <%end %>
 </table>
-<p/>
+<p></p>
 <%if current_user && current_user.admin? %>
-<%= link_to 'Edit', edit_role_path(@role) %> |
+<%= link_to 'Edit', edit_role_path(@role) %>
 <%end %>
 <%= link_to 'Back', roles_path %>

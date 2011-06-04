@@ -63,7 +63,7 @@
             </table>
         </td>
 		<%end%> 
-		<%if @players%>
+		<%if @players && (@players.count > 0)%>
         <td class='internal' width='100px'/>
         <td class='internal'>
             <p>
@@ -106,7 +106,10 @@
     <b><%=h @rating %>&nbsp;/&nbsp;99</b>
 </p
 <p>
-	If you input all the information for your virtual pro, the above number will match the overall rating displayed in the game.  The table below shows how many points your virtual pro receives in each relevant skill.  Each value is shown out of a total that would give the theoretical rating of 99, which is not achievable in the current version of the game.  Values that are 100 points short of the maximum are shown in bold.  These are skills you may want to improve.  For each relevant skill, accomplishments are shown (if you have input a player) that you can still use to improve this skill. 
+	If you input all the information for your virtual pro, the above number will match the overall rating displayed in the game.  The table below shows how many points your virtual pro receives in each relevant skill.  Each value is shown out of a total that would give the theoretical rating of 99, which is not achievable in the current version of the game.
+</p>
+<p>
+	Point values that are 100 points short of the maximum are shown in bold.  These are skills you may want to improve.  For each relevant skill, accomplishments are shown (if you have input a player) that you can still use to improve this skill. 
 </p>
 <table>
     <tr>
@@ -177,6 +180,8 @@
     <%end %>
 </table>
 <%end %>
-<p/><%if current_user && current_user.admin? %>
-<%= link_to 'Edit', edit_position_path(@position) %>|<%end %>
+<p></p>
+<%if current_user && current_user.admin? %>
+<%= link_to 'Edit', edit_position_path(@position) %>
 <%= link_to 'Back', positions_path %>
+<%end %>

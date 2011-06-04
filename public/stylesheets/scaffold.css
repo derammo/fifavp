@@ -9,6 +9,12 @@ body, p, ol, ul, td {
     line-height: 18px;
 }
 
+h1 {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+}
+
 pre {
     background-color: #eee;
     padding: 10px;
@@ -20,7 +26,7 @@ a {
 }
 
 a:visited {
-    color: #66f;
+    color: #00f;
 }
 
 a:hover {
@@ -72,7 +78,9 @@ table {
 }
 
 table, th, td, tr {
-    border: 1px solid black;
+	border-style: solid solid solid solid;
+	border-color: grey;
+	border-width: 1px;
 }
 
 th, td {
@@ -94,6 +102,115 @@ table td:first-of-type:not([class]) {
 }
 
 table.internal, th.internal, td.internal, tr.internal {
-    border: none;
+	border-style: none none none none;
 }
 
+td.description {
+	max-width: 350px;	
+}
+
+table.index {
+    padding: 0px 0px 0px 0px;
+	border-style: none none none none;
+}
+
+tr.index {
+	border-style: solid none solid none;
+}
+
+/* first link is the item itself, not a button */
+tr.index td:not(:first-of-type) a {
+	text-decoration: none;
+	display: block;
+	background-color: transparent;
+	background-image: url(/images/button66.png);
+	background-repeat: no-repeat;
+	width: 66px;
+	height: 29px;
+	text-align: center;
+	color: #444444;
+	padding: 5px 0px 0px 0px;
+}
+tr.index td:first-of-type {
+	padding: 0px 5px 0px 5px;
+	vertical-align: middle;
+}
+tr.index td:not(:first-of-type) {
+	padding: 5px 5px 0px 5px;
+	align: center;
+	vertical-align: middle;
+}
+tr.index td:not(:first-of-type) a:active {
+	color: #444444;
+}
+tr.index td:not(:first-of-type) a:visited {
+	color: #444444;
+}
+tr.index td:not(:first-of-type) a:hover {
+	color: #444444;
+	text-decoration: underline;
+}
+
+/* when there are no buttons, still show the same spacing in the table */
+tr.index {
+	height: 39px;
+}
+
+/* the links at the bottom of the document are also shown as buttons */
+body > a {
+	text-decoration: none;
+	display: inline-block; 
+	background-color: transparent;
+	background-image: url(/images/button99.png);
+	background-repeat: no-repeat;
+	width: 99px;
+	height: 29px;
+	text-align: center;
+	color: #444444;
+	padding: 5px 0px 0px 0px;
+}
+body > a:active {
+	color: #444444;
+}
+/* this does not work for some reason */
+body > a:hover {
+	background-color: #fff;
+	text-decoration: underline;
+	color: #444444;
+}
+body > a:visited {
+	color: #444444;
+}
+
+/* the links at the top of the document are shown as a menu bar */
+div.navigation {
+	background-color: #eeeeee;
+	border: outset 1px #eeeeee;
+}
+div.navigation a {
+	text-decoration: none;
+	display: inline-block;
+	background-repeat: no-repeat;
+	height: 24px;
+	text-align: center;
+	color: #444444;
+	padding: 5px 20px 0px 20px;
+}
+div.navigation a:active {
+	color: #444444;
+}
+/* the color change does not work for some reason, so we also underline the link */
+div.navigation a:hover {
+	text-decoration: underline;
+	background-color: #eeeeee;
+	color: #444444;
+}
+div.navigation a:visited {
+	color: #444444;
+}
+div.navigation tr {
+	vertical-align: bottom;
+}
+div.navigation td {
+	vertical-align: bottom;
+}

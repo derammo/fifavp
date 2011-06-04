@@ -2,30 +2,24 @@
 <p>
 These are the different configurations that you can choose for your virtual pro.  Each gives your virtual pro a set of base skill values, which can then be further improved by achieving accomplishments.
 </p>
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Description</th>
-    <th class='internal'></th>
-    <th class='internal'></th>
-    <th class='internal'></th>
-  </tr>
+<table class='index internal'>
 
 <% @roles.each do |role| %>
-  <tr>
-    <td><%=h role.name %></td>
-    <td><%=h role.description %></td>
-    <td class='internal'><%=link_to 'Show', role %></td>
-	<%if current_user.admin?%>
+  <tr class='index internal'>
+    <td class='index internal'><%=link_to role.name, role %></td>
+    <td class='index internal description'>
+	<%if role.description%>
+    	(<%=h role.description %>)
+	<%end%>
+	</td>
+    <%if current_user.admin?%>
 	    <td class='internal'><%=link_to 'Edit', edit_role_path(role) %></td>
 	    <td class='internal'><%=link_to 'Destroy', role, :confirm => 'Are you sure?', :method => :delete %></td>
 	<%end%>
   </tr>
 <% end %>
 </table>
-
-<br />
-
+<p></p>
 <%if current_user.admin?%>
 <%= link_to 'New Role', new_role_path %>
 <%end%>

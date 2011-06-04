@@ -1,11 +1,34 @@
-<p>
-	<%= link_to "Home", root_url %> |
-	<%= link_to "Roles", roles_url %> |
-	<%= link_to "Players", players_url %>
-	<%if current_user && current_user.admin?%>
-		| <%= link_to "Skills", skills_url %> |
-		<%= link_to "Positions", positions_url %> |
-		<%= link_to "Assignments", assignments_url %> 
-	<%end%>
-	<% if current_user %> | <%= link_to "Logout", logout_path %> <% end %> 
-</p>
+<div class="navigation">
+<table class="internal">
+<tr class="internal">
+<td class="internal">
+<img src="/images/gin_tonic_glass_horiz.png" height="57px" width="180px"></img>
+</td>
+<td class='internal'>
+</td>
+<td class='internal'>
+<%= link_to "Home", root_url %>
+</td>
+<td class='internal'>
+<%= link_to "Roles", roles_url %>
+</td>
+<td class='internal'>
+<%= link_to "Players", players_url %>
+</td>
+<%if current_user && current_user.admin?%>
+<td class='internal'>
+<%= link_to "Skills", skills_url %>
+</td>
+<td class='internal'>
+<%= link_to "Positions", positions_url %>
+</td>
+<td class='internal'>
+<%= link_to "Assignments", assignments_url %>
+</td> 
+<%end%>
+<td class='internal'>
+<% if current_user %><%= link_to "Logout", logout_path %><% end %>
+</td>
+</tr> 
+</table>
+</div>

@@ -28,6 +28,8 @@
     </tr>
     <%end %>
 </table>
-<p/><%if current_user && current_user.admin? %>
-<%= link_to 'Edit', edit_heightweight_path(@heightweight) %> |<%end %>
+<p></p>
+<%if current_user && current_user.admin? %>
+<%= link_to 'Edit', edit_heightweight_path(@heightweight) %>
+<%end %>
 <%= link_to 'Back', heightweights_path %>

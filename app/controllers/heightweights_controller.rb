@@ -29,6 +29,14 @@ class HeightweightsController < ApplicationController
   def new
     @heightweight = Heightweight.new
 
+    # which ID is source 'heightweight'?, will throw if not found
+    heightweightid = Source.first(:conditions => 'name = "HeightWeight"').id
+    
+    # initialize related records
+    for skill in Skill.all(:conditions => ['source_id = ?', heightweightid], :order => 'skills.name') do
+      @heightweight.heightweightvalues.build(:skill => skill, :value => 0)
+    end
+    
     respond_to do |format|
       format.html # new.html.erb
       format.xml  { render :xml => @heightweight }
