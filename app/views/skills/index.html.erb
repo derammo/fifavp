@@ -14,7 +14,12 @@
   <tr>
     <td><%=h skill.name %></td>
     <td><%=h skill.description %></td>
-    <td><%=h skill.source.name %></td>
+    <td><%if skill.source%>
+	    <%=h skill.source.name %>
+		<%else%>
+		<%=h skill.source_id %>
+		<%end%>
+	</td>
     <td class='internal'><%=link_to 'Show', skill %></td>
     <td class='internal'><%=link_to 'Edit', edit_skill_path(skill) %></td>
     <td class='internal'><%=link_to 'Destroy', skill, :confirm => 'Are you sure?', :method => :delete %></td>
