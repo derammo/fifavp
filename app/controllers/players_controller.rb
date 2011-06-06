@@ -105,6 +105,11 @@ class PlayersController < ApplicationController
     # can't change/choose this
     @player.owner = current_user.login
 
+    # XXX gruesome hack until I can figure out how to make the import button call a different action
+    if (params[:commit] == 'Import')
+      return import
+    end
+
     # write accomplishment records for those accomplishments achieved
     missing = Accomplishment.all;
     for accomplishment in missing do
@@ -221,7 +226,11 @@ class PlayersController < ApplicationController
 
   # POST /players/1/import
   def import
-    @player = Player.find(params[:id])
+    # sometimes we are called from 'create' so we don't have an ID, but @player will already be set
+    # in those cases
+    if params[:id] then
+      @player = Player.find(params[:id])
+    end
     
     if !(current_user.admin? || (current_user.login == @player.owner.downcase)) then
       # TODO how to report error?
