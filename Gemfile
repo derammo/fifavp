@@ -9,6 +9,8 @@ gem 'sqlite3'
 
 gem 'mysql2'
 
+gem 'httparty'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 

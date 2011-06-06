@@ -144,6 +144,11 @@ class PlayersController < ApplicationController
       return
     end
     
+    # XXX gruesome hack until I can figure out how to make the import button call a different action
+    if (params[:commit] == 'Import')
+      return import
+    end
+    
     existingrecords = Hash.new
     
     # load accomplishments 
@@ -211,6 +216,58 @@ class PlayersController < ApplicationController
     respond_to do |format|
       format.html { redirect_to(players_url) }
       format.xml  { head :ok }
+    end
+  end
+
+  # POST /players/1/import
+  def import
+    @player = Player.find(params[:id])
+    
+    if !(current_user.admin? || (current_user.login == @player.owner.downcase)) then
+      # TODO how to report error?
+      respond_to do |format|
+        format.html { redirect_to(@player, :notice => 'Player cannot be updated.') }
+        format.xml  { head :ok }
+      end
+      return
+    end
+    
+    # do the import
+    if (params[:player][:gamertag] && (params[:player][:gamertag].length > 0)) then
+      # /getdata?platformTag=soccer-fifa-11-360&handle=GinTonicLime&platform=360
+      @downloaded = PlayersHelper::AccomplishmentsDownload.get('/getdata', 
+        :query=>{'platformTag'=>'soccer-fifa-11-360',
+                 'handle'=>params[:player][:gamertag],
+                 'platform'=>'360'})
+      if @downloaded.parsed_response['accomplishments'] 
+        # only remaining accomplishments will be those downloaded
+        @player.playeraccomplishments.destroy_all
+      
+        for accomplishment in @downloaded.parsed_response['accomplishments'] do
+          if accomplishment['status'] == 'true' then
+            # has been achieved
+            section = accomplishment['category']
+            linenumber = accomplishment['label'].split(")")[0]
+            found = Accomplishment.first(:conditions=>['section = ? and linenumber = ?', section, linenumber])
+            if found then
+              @player.playeraccomplishments.build(:accomplishment => found, :achieved => true)
+            end
+          end
+        end
+      end
+    end
+
+    # can't change owner
+    params[:player].delete("owner")
+    
+    respond_to do |format|
+      if @player.update_attributes(params[:player])
+        format.html { redirect_to(@player, :notice => 'Player was successfully updated.') }
+        format.xml  { head :ok }
+      else
+        format.html { render :action => "edit" }
+        format.xml  { render :xml => @player.errors, :status => :unprocessable_entity }
+      end
     end
   end
   

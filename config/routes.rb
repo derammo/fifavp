@@ -10,7 +10,11 @@ Fifavp::Application.routes.draw do
 
   resources :playeraccomplishments
 
-  resources :players
+  resources :players do
+    member do
+      post 'import'
+    end
+  end
 
   resources :accomplishments
 

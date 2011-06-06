@@ -30,6 +30,10 @@ The name and description of your player are only used for presentation on this s
 <p>
     Please mark any accomplishments that your virtual pro has achieved.  The row of links below tabs through the various sections of accomplishments. 
 </p>
+<p>
+	To download your accomplishments from EA's servers, please enter your XBox Live Gamer Tag here:     
+	<%= f.text_field :gamertag %> and click here <%= f.submit :value=>'Import'%>
+</p>
 <table class='internal'>
     <tr class='internal'>
         <%prevsection = '' %>

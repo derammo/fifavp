@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110524210739) do
+ActiveRecord::Schema.define(:version => 20110606163455) do
 
   create_table "accomplishments", :force => true do |t|
     t.string   "section"
@@ -74,6 +74,7 @@ ActiveRecord::Schema.define(:version => 20110524210739) do
     t.string   "owner"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "gamertag"
   end
 
   create_table "positioncoefficients", :force => true do |t|
