@@ -12,7 +12,7 @@
 </div>
 <% end %>
 <p>
-The name and description of your player are only used for presentation on this site and have no other function.  You can choose any values that are meaninful to you.
+The name and description of your player are only used for presentation on this site and have no other function.  You can choose any values that are meaninful to you.  The gamer tag should be set to your Xbox Live Gamer Tag, so that accomplishments and games played can be imported from EA's public information servers.  Note this will not access your Xbox Live account and you will not be asked for your password.
 </p>
 <div class="field">
     <%= f.label :name %>
@@ -24,6 +24,11 @@ The name and description of your player are only used for presentation on this s
     <br/>
     <%= f.text_field :description %>
 </div>
+<div class="field">
+    <%= f.label 'Gamer Tag' %>
+    <br/>
+    <%= f.text_field :gamertag %>
+</div>
 <p>
     <b>Accomplishments:</b>
 </p>
@@ -31,11 +36,10 @@ The name and description of your player are only used for presentation on this s
     Please mark any accomplishments that your virtual pro has achieved.  The row of links below tabs through the various sections of accomplishments. 
 </p>
 <p>
-	To download your accomplishments from EA's servers, please enter your XBox Live Gamer Tag here:     
-	<%= f.text_field :gamertag %> and click here <%= f.submit :value=>'Import'%>
+	To download your accomplishments from EA's servers, please enter your XBox Live Gamer Tag above and click here: <%= f.submit :value=>'Import'%>
 </p>
 <p>
-	The import may take a few seconds.  Note that you will never be asked for your password to any other site, since this is public information.
+	The import may take a few seconds.
 </p>
 <table class='internal'>
     <tr class='internal'>

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110606163455) do
+ActiveRecord::Schema.define(:version => 20110610213739) do
 
   create_table "accomplishments", :force => true do |t|
     t.string   "section"
@@ -37,6 +37,15 @@ ActiveRecord::Schema.define(:version => 20110606163455) do
   add_index "assignments", ["position_id"], :name => "index_assignments_on_position_id"
   add_index "assignments", ["role_id"], :name => "index_assignments_on_role_id"
 
+  create_table "games", :force => true do |t|
+    t.integer  "league_id"
+    t.integer  "player1_id"
+    t.integer  "player2_id"
+    t.integer  "result_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "heightweights", :force => true do |t|
     t.string   "name"
     t.string   "description"
@@ -55,6 +64,23 @@ ActiveRecord::Schema.define(:version => 20110606163455) do
 
   add_index "heightweightvalues", ["heightweight_id"], :name => "index_heightweightvalues_on_heightweight_id"
   add_index "heightweightvalues", ["skill_id"], :name => "index_heightweightvalues_on_skill_id"
+
+  create_table "leagueplayers", :force => true do |t|
+    t.integer  "league_id"
+    t.integer  "player_id"
+    t.boolean  "active"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "leagues", :force => true do |t|
+    t.string   "name"
+    t.string   "description"
+    t.date     "startdate"
+    t.date     "enddate"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "playeraccomplishments", :force => true do |t|
     t.integer  "player_id"
@@ -91,6 +117,19 @@ ActiveRecord::Schema.define(:version => 20110606163455) do
   create_table "positions", :force => true do |t|
     t.string   "name"
     t.string   "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "results", :force => true do |t|
+    t.integer  "game_id"
+    t.string   "hashfive"
+    t.string   "player1"
+    t.string   "team1"
+    t.integer  "goals1"
+    t.string   "player2"
+    t.string   "team2"
+    t.integer  "goals2"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

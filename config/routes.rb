@@ -1,4 +1,12 @@
 Fifavp::Application.routes.draw do
+  resources :games
+
+  resources :results
+
+  resources :leagueplayers
+
+  resources :leagues
+
   #authenticated
   resources :users
   resource :session, :only => [:new, :create, :destroy]

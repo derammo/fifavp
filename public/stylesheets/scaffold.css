@@ -216,3 +216,6 @@ div.navigation tr {
 div.navigation td {
 	vertical-align: bottom;
 }
+tr.irrelevant td {
+	text-decoration: line-through;
+}

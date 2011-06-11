@@ -16,23 +16,13 @@
 </p>
 
 <p>
+  <b>Gamer Tag:</b>
+  <%=h @player.gamertag %>
+</p>
+
+<p>
   <b>Accomplishments:</b>
-  <table class='internal''>
-    <%for accomplishmentstate in @accomplishmentsdone%>
-      <tr class='internal'>
-        <!--
-        <td><%=check_box_tag 'dummy',
-		'dummy',
-		accomplishmentstate.achieved,
-		:readonly=>true,
-		:disabled=>true%></td>
-        -->
-        <td class='internal'><%=h accomplishmentstate.accomplishment.section%></td>
-        <td class='internal numeric'><%=h accomplishmentstate.accomplishment.linenumber%>:</td>
-        <td class='internal'><%=h accomplishmentstate.accomplishment.description%></td>
-      </tr>
-    <%end%>
-  </table>
+  <%=@accomplishmentsdone.size%>
 </p>
 <p></p>
 <%= link_to 'Edit', edit_player_path(@player) %>

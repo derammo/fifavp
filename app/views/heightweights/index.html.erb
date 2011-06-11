@@ -27,5 +27,6 @@
 </table>
 
 <br />
-
+<%if current_user && current_user.admin?%>
 <%= link_to 'New Heightweight', new_heightweight_path %>
+<%end%>

@@ -244,7 +244,7 @@ class PlayersController < ApplicationController
     # do the import
     if (params[:player][:gamertag] && (params[:player][:gamertag].length > 0)) then
       # /getdata?platformTag=soccer-fifa-11-360&handle=GinTonicLime&platform=360
-      @downloaded = PlayersHelper::AccomplishmentsDownload.get('/getdata', 
+      @downloaded = PlayersHelper::AccomplishmentsDownload.get('/accomplishments/getdata', 
         :query=>{'platformTag'=>'soccer-fifa-11-360',
                  'handle'=>params[:player][:gamertag],
                  'platform'=>'360'})

@@ -25,7 +25,7 @@
     <b>Skill Base Values:</b>
 </p>
 <table>
-    <%f.fields_for :rolevalues do |rolevalues_form| %>
+    <%= f.fields_for :rolevalues do |rolevalues_form| %>
     <tr>
         <td>
             <%=h rolevalues_form.object.skill.name %>
