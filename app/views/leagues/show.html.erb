@@ -117,7 +117,7 @@ These are current standings in this league.  Players who are no longer active me
     <td class='games'><%if game.result then %><%=h game.result.created_at.to_date %><%end%></td>
     <td class='games'>
     <%if game.player1 && game.player2 && game.result then %>
-	    <%if game.result.player1 == game.player1.player.name then %>
+	    <%if game.result.player1 == game.player1.player.gamertag then %>
 			<%=h game.result.goals1 %>&nbsp;:&nbsp;<%=h game.result.goals2 %>
 		<%else%>
 			<%=h game.result.goals2 %>&nbsp;:&nbsp;<%=h game.result.goals1 %>

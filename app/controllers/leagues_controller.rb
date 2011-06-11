@@ -25,8 +25,8 @@ class LeaguesController < ApplicationController
           # claim the same result for the home and away game (note that each result appears in both players' imports)
           results = Result.all(:order => 'id', 
             :conditions => ['game_id is null and player1 = ? and player2 = ? and created_at > ? and created_at < ?',
-            [game.player1.player.name, game.player2.player.name].min,
-            [game.player1.player.name, game.player2.player.name].max,
+            [game.player1.player.gamertag, game.player2.player.gamertag].min,
+            [game.player1.player.gamertag, game.player2.player.gamertag].max,
             game.league.startdate,
             game.league.enddate.to_date + 1])
             

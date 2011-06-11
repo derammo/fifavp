@@ -40,7 +40,7 @@ class Standings < Array
       result = game.result
       if result then
         # figure out whether the result is recorded backwards
-        if player1.player.name == result.player1 then
+        if player1.player.gamertag == result.player1 then
           score1 = result.goals1
           score2 = result.goals2
         else
@@ -72,7 +72,7 @@ class Standings < Array
 
   private 
   def fetchOrCreate(player)
-    key = player.name
+    key = player.gamertag
     item = @player_records[key]
     if !item then
       item = Standings::Record.new

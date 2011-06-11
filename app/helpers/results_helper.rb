@@ -42,7 +42,7 @@ module ResultsHelper
             # this loop is going from most recent match to oldest, so as soon as we find a match on the hash, we are
             # synchronized
             # check for hash
-            matched = Result.first(:conditions => ['hashfive = ? and player1 = ?', hash[i], player.name])
+            matched = Result.first(:conditions => ['hashfive = ? and player1 = ?', hash[i], player.gamertag])
             if matched
               # match one-by-one up to here, which might be zero
               tomatch = i - 1
@@ -60,7 +60,7 @@ module ResultsHelper
         #
         # cannot include leagueplayer_id here because the same player can be in multiple leagues
         # and that would result in storing the results several times, so we use 'player1' instead
-        imported = Result.all(:conditions => ['player1 = ? and id > ?', player.name, matchsince],
+        imported = Result.all(:conditions => ['player1 = ? and id > ?', player.gamertag, matchsince],
                               :order => 'id DESC')
         importscan = 0
         toadd = tomatch
