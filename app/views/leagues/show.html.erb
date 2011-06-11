@@ -1,0 +1,150 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>League Name:</b>
+  <%= @league.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @league.description %>
+</p>
+
+<p>
+  <b>Start Date:</b>
+  <%= @league.startdate %>
+</p>
+
+<p>
+  <b>End Date:</b>
+  <%= @league.enddate %>
+</p>
+
+<p>
+    <b>Standings:</b>
+</p>
+<p>
+These are current standings in this league.  Players who are no longer active members of the league are shown in a separate list below and games against these opponents are not counted. 
+</p>
+<table class='standings'>
+    <tr class='standings'>
+    	<th class='standings'>
+    		Player
+    	</th>
+    	<th class='standings'>
+    		Points
+    	</th>
+    	<th class='standings'>
+    		Played
+    	</th>
+    	<th class='standings'>
+    		Won
+    	</th>
+    	<th class='standings'>
+    		Lost
+    	</th>
+    	<th class='standings'>
+    		Drawn
+    	</th>
+    	<th class='standings'>
+    		GF
+    	</th>
+    	<th class='standings'>
+    		GA
+    	</th>
+    	<th class='standings'>
+    		GD
+    	</th>
+	</tr>
+    <%for record in @standings %>
+    <tr class='standings'>
+        <td class='standings'>
+            <%if record[1].player then%>
+			<%=h link_to record[1].player.name, player_path(
+            :id=>record[1].player.id,
+            :league=>@league.id) %>
+			<%end%>
+        </td>
+        <td class='numeric standings'>
+        	<%=h record[1].points%>
+        </td>
+        <td class='numeric standings'>
+        	<%=h record[1].played%> / <%=h record[1].games%>
+        </td>
+        <td class='numeric standings'>
+        	<%=h record[1].won%>
+        </td>
+        <td class='numeric standings'>
+        	<%=h record[1].lost%>
+        </td>
+        <td class='numeric standings'>
+        	<%=h record[1].drawn%>
+        </td>
+        <td class='numeric standings'>
+        	<%=h record[1].goals_for%>
+        </td>
+        <td class='numeric standings'>
+        	<%=h record[1].goals_against%>
+        </td>
+        <td class='numeric standings'>
+        	<%=h record[1].goal_differential%>
+        </td>
+    </tr>
+    <%end %>
+</table>
+<p></p>
+<p>
+    <b>Games:</b>
+</p>
+<table class='games'>
+  <tr class='games'>
+    <th class='games'>Home</th>
+    <th class='games'>Away</th>
+    <th class='games'>Date Imported</th>
+    <th class='games'>Result</th>
+	<%if current_user && current_user.admin? %>
+    <th></th>
+	<%end%>
+  </tr>
+<% @sortedgames.each do |game| %>
+<%if !(game.player1 && game.player1.active && game.player2 && game.player2.active) then%>
+<tr class='irrelevant games'>
+<%else%>
+<tr class='games'>
+<%end%>
+    <td class='games'><%if game.player1%><%=h game.player1.player.name %><%else%>(deleted)<%end%></td>
+    <td class='games'><%if game.player2%><%=h game.player2.player.name %><%else%>(deleted)<%end%></td>
+    <td class='games'><%if game.result then %><%=h game.result.created_at.to_date %><%end%></td>
+    <td class='games'>
+    <%if game.player1 && game.player2 && game.result then %>
+	    <%if game.result.player1 == game.player1.player.name then %>
+			<%=h game.result.goals1 %>&nbsp;:&nbsp;<%=h game.result.goals2 %>
+		<%else%>
+			<%=h game.result.goals2 %>&nbsp;:&nbsp;<%=h game.result.goals1 %>
+		<%end%>
+	<%end%>
+	</td>
+	<%if current_user && current_user.admin? %>
+    <td><%= link_to 'Edit', edit_game_path(game) %></td>
+	<%end%>
+</tr>	
+<%end%>
+</table>
+<p></p>
+<p>
+    <b>Players removed from league:</b>
+</p>
+<%if @inactive.size>0 then%>
+<ul>
+<% @inactive.each do |leagueplayer| %>
+<li><%=h leagueplayer.player.name %></li>
+<%end%>
+</ul>
+<%else%>
+(No players have been removed from this league)
+<%end%>
+<p></p>
+<%if current_user && current_user.admin? %>
+<%= link_to 'Edit', edit_league_path(@league) %>
+<%end%> 
+<%= link_to 'Back', leagues_path %>

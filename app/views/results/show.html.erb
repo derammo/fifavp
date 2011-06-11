@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Game:</b>
+  <%= @result.game_id %>
+</p>
+
+<p>
+  <b>Hashfive:</b>
+  <%= @result.hashfive %>
+</p>
+
+<p>
+  <b>Player1:</b>
+  <%= @result.player1 %>
+</p>
+
+<p>
+  <b>Team1:</b>
+  <%= @result.team1 %>
+</p>
+
+<p>
+  <b>Goals1:</b>
+  <%= @result.goals1 %>
+</p>
+
+<p>
+  <b>Player2:</b>
+  <%= @result.player2 %>
+</p>
+
+<p>
+  <b>Team2:</b>
+  <%= @result.team2 %>
+</p>
+
+<p>
+  <b>Goals2:</b>
+  <%= @result.goals2 %>
+</p>
+
+
+<%= link_to 'Edit', edit_result_path(@result) %> |
+<%= link_to 'Back', results_path %>

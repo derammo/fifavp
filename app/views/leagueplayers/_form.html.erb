@@ -1,0 +1,31 @@
+<%= form_for(@leagueplayer) do |f| %>
+  <% if @leagueplayer.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@leagueplayer.errors.count, "error") %> prohibited this leagueplayer from being saved:</h2>
+
+      <ul>
+      <% @leagueplayer.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :league_id %><br />
+    <%= f.select :league_id, 
+	League.find(:all, :order=>"name").collect {|s| [s.name, s.id]} %>
+  </div>
+  <div class="field">
+    <%= f.label :player_id %><br />
+    <%= f.select :player_id, 
+	Player.find(:all, :order=>"name").collect {|s| [s.name, s.id]} %>
+  </div>
+  <div class="field">
+    <%= f.label :active %><br />
+    <%= f.check_box :active %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

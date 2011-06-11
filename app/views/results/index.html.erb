@@ -1,0 +1,39 @@
+<h1>Listing results</h1>
+
+<table>
+  <tr>
+    <th>id</th>
+    <th>Game</th>
+    <th>Hashfive</th>
+    <th>Player1</th>
+    <th>Team1</th>
+    <th>Goals1</th>
+    <th>Player2</th>
+    <th>Team2</th>
+    <th>Goals2</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @results.each do |result| %>
+  <tr>
+    <td><%= result.id %></td>
+    <td><%= result.game_id %></td>
+    <td><%= result.hashfive %></td>
+    <td><%= result.player1 %></td>
+    <td><%= result.team1 %></td>
+    <td><%= result.goals1 %></td>
+    <td><%= result.player2 %></td>
+    <td><%= result.team2 %></td>
+    <td><%= result.goals2 %></td>
+    <td><%= link_to 'Show', result %></td>
+    <td><%= link_to 'Edit', edit_result_path(result) %></td>
+    <td><%= link_to 'Destroy', result, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Result', new_result_path %>

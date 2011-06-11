@@ -1,0 +1,31 @@
+<h1>Leagues</h1>
+<table class='index'>
+    <% @leagues.each do |league| %>
+    <tr class='index'>
+        <td class='internal index'>
+            <%= link_to league.name, league %>
+        </td>
+        <td class='internal index'>
+            <%= league.description %>
+        </td>
+        <td class='internal index'>
+            from <%= league.startdate %>
+        </td>
+        <td class='internal index'>
+            until <%= league.enddate %>
+        </td>
+        <%if current_user && current_user.admin? %>
+        <td class='internal index'>
+            <%= link_to 'Edit', edit_league_path(league) %>
+        </td>
+        <td class='internal index'>
+            <%= link_to 'Destroy', league, :confirm => 'Are you sure?', :method => :delete %>
+        </td>
+        <%end %>
+    </tr>
+    <% end %>
+</table>
+<br/>
+<%if current_user && current_user.admin? %>
+<%= link_to 'New League', new_league_path %>
+<%end %>
